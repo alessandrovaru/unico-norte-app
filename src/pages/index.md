@@ -1,14 +1,18 @@
 ---
 templateKey: index-page
 slider:
-  - title: Suerte
-    subheading: Bella Ferro
-    youtube: https://youtu.be/9_fAZmQ5YLA
-    image: /img/280546164_1110964833161267_3579065199935997158_n.jpg
   - youtube: https://youtu.be/TY0FMPZBWHM
     title: NUBLADO
     subheading: Yarge, suei
     image: /img/308672193_175537458340137_291755176686371964_n-1-.jpg
+  - title: Suerte
+    subheading: Bella Ferro
+    youtube: https://youtu.be/9_fAZmQ5YLA
+    image: /img/280546164_1110964833161267_3579065199935997158_n.jpg
+  - title: El Vuelo
+    image: /img/286879418_568377388289433_2113740121243506260_n.jpg
+    subheading: Yarge
+    youtube: https://www.youtube.com/watch?v=7tFEDhjgngs&ab_channel=Yarge
 title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
 heading: Porfolio
