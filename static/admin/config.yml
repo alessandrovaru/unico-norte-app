@@ -46,6 +46,18 @@ collections:
               widget: "hidden",
               default: "index-page",
             }
+          - {        
+              label: Slider,
+              name: slider,
+              widget: list,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  { label: Subheading, name: subheading, widget: string },
+                  { label: Youtube, name: youtube, widget: string }
+                ],
+            }
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }

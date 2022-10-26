@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function FullWidthImage(props) {
   const {
-    height = 400,
+    height = 600,
     img,
     title,
     subheading,
@@ -45,7 +45,8 @@ export default function FullWidthImage(props) {
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              maxHeight: height,
+              maxHeight: "100vh",
+              height: "80vh",
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image

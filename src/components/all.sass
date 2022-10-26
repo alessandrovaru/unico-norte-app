@@ -1,14 +1,22 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+@import "https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat&display=swap"
+
 // Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+// Kaldi logo brand color: #080808
+$kaldi-red: #151515
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-$body-color: #333
-$black: #2b2523
+$body-color: #080808
+$black: #080808
+
+body
+  h1,h2,h3,h4,h5,h6
+    font-family: 'Kanit', sans-serif
+    text-transform: uppercase
+    transition: all 1s ease-in-out
 
 .navbar .navbar-menu
   box-shadow: none !important
@@ -122,6 +130,49 @@ $menu-label-color: $white-ter
   flex-basis: 35%
   margin: 0 1.5em 0 0
 
+// MainCarrousell
+.swiper 
+  padding: 60px 200px !important
+  height: 80vh !important
+
+.slide
+  display: flex !important
+  justify-content: center !important
+  align-items: center !important
+  border-radius: 15px !important
+  overflow: hidden
+  box-shadow: 1px 1px 14px #4e4e4e87
+  cursor: pointer
+  &:hover
+    .slider-text h2, h3
+      color: white !important
+  
+
+.slider-image
+  position: relative
+  z-index: 1
+  width: 100%
+
+.slider-text
+  position: absolute
+  z-index: 2
+  display: flex
+  flex-direction: column
+  align-items: center
+  h2
+    color: transparent !important
+    font-size: 80px
+    -webkit-text-stroke-width: 3px
+    -webkit-text-stroke-color: white
+    font-weight: 600
+   
+  h3
+    color: transparent !important
+    font-size: 120px
+    -webkit-text-stroke-width: 3px
+    -webkit-text-stroke-color: white
+    font-weight: 600
+
 
 @import "~bulma"
 
@@ -138,3 +189,19 @@ $menu-label-color: $white-ter
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+  //MainCarrousel
+  .swiper 
+    padding: 20px 30px !important
+    height: 95vh !important
+  .slide
+    height: auto !important  
+  .slider-image 
+    height: 80vh
+  .slider-text h2
+    font-size: 14px !important
+    -webkit-text-stroke-width: 1px
+  .slider-text h3
+    font-size: 20px !important
+    -webkit-text-stroke-width: 1px
+  .gatsby-image-wrapper
+    height: 100%

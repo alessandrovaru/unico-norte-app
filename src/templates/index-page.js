@@ -1,12 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
-import FullWidthImage from "../components/FullWidthImage";
+import MainCarrousel from "../components/MainCarrousel";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -17,12 +16,12 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  slider,
 }) => {
-  const heroImage = getImage(image) || image;
 
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
+      <MainCarrousel slider={slider}/>
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -84,6 +83,7 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+  slider: PropTypes.array
 };
 
 const IndexPage = ({ data }) => {
@@ -99,6 +99,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        slider={frontmatter.slider}
       />
     </Layout>
   );
@@ -118,6 +119,16 @@ export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
+        slider {
+          title
+          image {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
+          }
+          subheading
+          youtube
+        }
         title
         image {
           childImageSharp {
