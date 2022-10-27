@@ -16,6 +16,10 @@ slider:
     subheading: Yarge
     youtube: https://www.youtube.com/watch?v=7tFEDhjgngs&ab_channel=Yarge
     video: /img/untitled-1-.mp4
+  - title: Serotonina
+    subheading: Daniela Barranco
+    youtube: https://www.youtube.com/watch?v=7tFEDhjgngs&ab_channel=Yarge
+    video: /img/untitled-1-.mp4
 title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
 heading: Porfolio
