@@ -4,7 +4,7 @@ slider:
   - youtube: https://youtu.be/TY0FMPZBWHM
     title: NUBLADO
     subheading: Yarge, suei
-    image: /img/308672193_175537458340137_291755176686371964_n-1-.jpg
+    image: ""
     video: /img/untitled-1-.mp4
   - title: Suerte
     subheading: Bella Ferro
