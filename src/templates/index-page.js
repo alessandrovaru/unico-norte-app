@@ -33,7 +33,7 @@ export const IndexPageTemplate = ({
                       <h1 className="title has-text-centered">{mainpitch.title}</h1>
                     </div>
                     <div className="tile is-flex-direction-column is-justify-content-center is-align-items-center">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
+                      <h3 className="subtitle has-text-centered">{mainpitch.description}</h3>
                       <p>{description}</p>
                     </div>
                   </div>

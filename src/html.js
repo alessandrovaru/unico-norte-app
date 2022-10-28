@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Loader from "./components/Loader/Loader"
 
 export default function HTML(props) {
   return (
@@ -14,6 +15,7 @@ export default function HTML(props) {
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
+        <Loader />
         {props.preBodyComponents}
         <div
           key={`body`}

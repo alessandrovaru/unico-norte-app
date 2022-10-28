@@ -5,9 +5,18 @@ import Navbar from "../components/Navbar/Navbar";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
+import { useEffect } from "react";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
+  useEffect(() => {
+    try {
+      const element = document.getElementById("full-page-loader")
+      if (element) element.parentNode.removeChild(element)
+    } catch(error) {
+      console.log(error)
+    }
+  })
   return (
     <div>
       <Helmet>
