@@ -1,29 +1,82 @@
 ---
 templateKey: blog-post
-title: A beginners’ guide to brewing with Chemex
+title: SUERTE
 date: 2017-01-04T15:04:10.000Z
+description: "Bella Ferro "
 featuredpost: false
-featuredimage: /img/chemex.jpg
-description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
+featuredimage: /img/280728626_422934259674207_3987488852588799478_n.jpg
 tags:
-  - brewing
-  - chemex
+  - Bella Ferro
+  - Música
+  - Video
 ---
-![chemex](/img/chemex.jpg)
+![chemex](/img/280728626_422934259674207_3987488852588799478_n.jpg)
 
-This week we’ll **take** a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts.
+Productora:\
+[@uniconorte](https://www.instagram.com/uniconorte/?hl=es)\
+\
+Director General:\
+[@jdiazmerry](https://www.instagram.com/jdiazmerry/?hl=es)\
+\
+Director Creativo:\
+[@jdiazmerry](https://www.instagram.com/jdiazmerry/?hl=es) [@11edsonsanchez](https://www.instagram.com/11edsonsanchez/?hl=es)\
+\
+Dirección de Fotografía:\
+[@eltibuls](https://www.instagram.com/eltibuls/?hl=es)\
+\
+Cámara:\
+[@11edsonsanchez](https://www.instagram.com/11edsonsanchez/?hl=es)\
+\
+Rental:\
+[@rj.diaz.v](https://www.instagram.com/rj.diaz.v/?hl=es)\
+\
+Gaffer:\
+Mr. Bean\
+\
+Eléctrico:\
+Gil\
+\
+Producción General:\
+[@josenobue](https://www.instagram.com/josenobue/?hl=es)\
+\
+Asistencia de Producción:\
+[@edinzo.lt](https://www.instagram.com/edinzo.lt/?hl=es)\
+\
+Dirección de Arte:\
+[@dinocurly](https://www.instagram.com/dinocurly/?hl=es)\
+\
+Vestuario:\
+[@ccocad](https://www.instagram.com/ccocad/?hl=es)\
+\
+Wardrope:\
+[@tizanamodas](https://www.instagram.com/tizanamodas/?hl=es)\
+\
+Maquillaje:\
+[@ddsojo](https://www.instagram.com/ddsojo/?hl=es)\
+[@bynailyn_](https://www.instagram.com/bynailyn_/?hl=es)\
+\
+Foto fija:\
+[@lecrez_](https://www.instagram.com/lecrez_/?hl=es)\
+\
+Edición:\
+[@christianroballo](https://www.instagram.com/christianroballo/?hl=es)\
+\
+Agradecimientos:\
+[@camilapfair](https://www.instagram.com/camilapfair/?hl=es)\
+[@auravgarcia](https://www.instagram.com/auravgarcia/?hl=es)\
+[@jorgefelicianolopezbrana](https://www.instagram.com/jorgefelicianolopezbrana/?hl=es)\
+\
+Talentos:\
+[@barbynovoa](https://www.instagram.com/barbynovoa/?hl=es)\
+[@johangrillo](https://www.instagram.com/johangrillo/?hl=es)\
+\
+Artista:\
+[@bellaferro](https://www.instagram.com/bellaferro/?hl=es)\
+Manager:\
+[@hova___](https://www.instagram.com/hova___/?hl=es)
 
-In 1958, designers at the [Illinois Institute of Technology](https://www.spacefarm.digital) said that the Chemex Coffeemaker is _"one of the best-designed products of modern times"_, and so is included in the collection of the Museum of Modern Art in New York City.
+24 sem
 
-## The little secrets of Chemex brewing
+<!--EndFragment-->
 
-The Chemex Coffeemaker consists of an hourglass-shaped glass flask with a conical funnel-like neck (rather than the cylindrical neck of an Erlenmeyer flask) and uses proprietary filters, made of bonded paper (thicker-gauge paper than the standard paper filters for a drip-method coffeemaker) that removes most of the coffee oils, brewing coffee with a taste that is different than coffee brewed in other coffee-making systems; also, the thicker paper of the Chemex coffee filters may assist in removing cafestol, a cholesterol-containing compound found in coffee oils. Here’s three important tips newbies forget about:
-
-1. Always buy dedicated Chemex filters.
-2. Use a scale, don’t try to eyeball it.
-3. Never skip preheating the glass.
-4. Timing is key, don’t forget the clock.
-
-The most visually distinctive feature of the Chemex is the heatproof wooden collar around the neck, allowing it to be handled and poured when full of hot water. This is turned, then split in two to allow it to fit around the glass neck. The two pieces are held loosely in place by a tied leather thong. The pieces are not tied tightly and can still move slightly, retained by the shape of the conical glass.
-
-For a design piece that became popular post-war at a time of Modernism and precision manufacture, this juxtaposition of natural wood and the organic nature of a hand-tied knot with the laboratory nature of glassware was a distinctive feature of its appearance.
+![Bella Fero](/img/280610802_161537082997558_8027609868032858466_n-1-.jpg "Bella Ferro")
