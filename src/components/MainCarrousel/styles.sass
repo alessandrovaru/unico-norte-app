@@ -1,0 +1,92 @@
+@import "~bulma/sass/utilities/initial-variables"
+@import "~bulma"
+// MainCarrousell
+.swiper 
+  padding: 60px 200px !important
+  height: 95vh !important
+  overflow: visible !important
+
+.slide
+  display: flex !important
+  justify-content: center !important
+  align-items: center !important
+  border-radius: 15px !important
+  overflow: hidden
+  box-shadow: 1px 1px 14px #4e4e4e87
+  cursor: grab
+  button
+    background: transparent
+    color: white
+    border: 1px solid
+    border-radius: 6px
+    padding: 15px 30px
+  &:hover
+    .slider-text h2, h3
+      color: white !important
+    button
+      background: white
+      color: black
+      cursor: pointer
+.box
+  box-shadow: none !important
+ 
+  
+
+.slider-image
+  position: relative
+  z-index: 1
+  width: 100%
+
+.slider-video
+  position: relative
+  z-index: 1
+  width: 100%
+
+video::-webkit-media-controls 
+  display: none
+
+.slider-text
+  position: absolute
+  z-index: 2
+  display: flex
+  flex-direction: column
+  align-items: center
+  h2
+    color: transparent !important
+    font-size: 80px
+    -webkit-text-stroke-width: 3px
+    -webkit-text-stroke-color: white
+    font-weight: 600
+   
+  h3
+    color: transparent !important
+    font-size: 120px
+    -webkit-text-stroke-width: 3px
+    -webkit-text-stroke-color: white
+    font-weight: 600
+
++mobile
+  .swiper 
+    padding: 0 30px !important
+    height: 90vh !important
+  .slide
+    height: auto !important  
+  .slider-image 
+    height: 100%
+  .slider-text h2
+    font-size: 14px !important
+    -webkit-text-stroke-width: 1px
+  .slider-text h3
+    font-size: 20px !important
+    -webkit-text-stroke-width: 1px
+  .gatsby-image-wrapper
+    height: 100%
+  .navbar 
+    min-height: 3.25rem
+    position: relative
+    z-index: 30
+    display: flex
+    align-items: center
+  .index
+    .mid-section
+      padding: 0

@@ -2,6 +2,7 @@
 
 @import "https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat&display=swap"
 
+@import "~bulma"
 // Config vars
 // Kaldi logo brand color: #080808
 $kaldi-red: #151515
@@ -13,18 +14,23 @@ $body-color: #080808
 $black: #080808
 
 body
+  overflow: hidden
   h1,h2,h3,h4,h5,h6
     font-family: 'Kanit', sans-serif
     text-transform: uppercase
     transition: all 1s ease-in-out
   button
     transition: all 1s ease-in-out
+  img
+    border-radius: 15px
+//mid section
+.index
+  .mid-section
+    padding: 0 3rem 
+    background: white
+    position: relative
 
-.section
-  padding: 0 3rem 
 
-.navbar .navbar-menu
-  box-shadow: none !important
 
 .content .taglist
   list-style: none
@@ -74,10 +80,10 @@ body
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: #080808
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px #080808
+    box-shadow: inset 0 0 0 2px #080808
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -94,8 +100,9 @@ body
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  padding: 3rem 3rem
   background-color: transparent
+  position: relative
   img
     width: 200px
 
@@ -128,70 +135,10 @@ $menu-label-color: $white-ter
     display: inline
 
 // blog roll
-.blog-list-item.is-featured
-  background-color: #d6400033
-.blog-list-item header
-  display: flex
-  margin-bottom: 1em
-.blog-list-item .featured-thumbnail
-  flex-basis: 35%
-  margin: 0 1.5em 0 0
-
-// MainCarrousell
-.swiper 
-  padding: 60px 200px !important
-  height: 95vh !important
-
-.slide
-  display: flex !important
-  justify-content: center !important
-  align-items: center !important
-  border-radius: 15px !important
-  overflow: hidden
-  box-shadow: 1px 1px 14px #4e4e4e87
-  cursor: grab
-  button
-    background: transparent
-    color: white
-    border: 1px solid
-    border-radius: 6px
-    padding: 15px 30px
-  &:hover
-    .slider-text h2, h3
-      color: white !important
-    button
-      background: white
-      color: black
- 
-  
-
-.slider-image
-  position: relative
-  z-index: 1
-  width: 100%
-
-.slider-text
-  position: absolute
-  z-index: 2
-  display: flex
-  flex-direction: column
-  align-items: center
-  h2
-    color: transparent !important
-    font-size: 80px
-    -webkit-text-stroke-width: 3px
-    -webkit-text-stroke-color: white
-    font-weight: 600
-   
-  h3
-    color: transparent !important
-    font-size: 120px
-    -webkit-text-stroke-width: 3px
-    -webkit-text-stroke-color: white
-    font-weight: 600
 
 
-@import "~bulma"
+
+
 
 
 // responsiveness
@@ -204,31 +151,5 @@ $menu-label-color: $white-ter
     display: block
   .blog-list-item .featured-thumbnail
     text-align: center
-    max-width: 70%
     margin: 0 0 1em
-  //MainCarrousel
-  .swiper 
-    padding: 0 30px !important
-    height: 90vh !important
-  .slide
-    height: 60vh !important  
-  .slider-image 
-    height: 100%
-  .slider-text h2
-    font-size: 14px !important
-    -webkit-text-stroke-width: 1px
-  .slider-text h3
-    font-size: 20px !important
-    -webkit-text-stroke-width: 1px
-  .gatsby-image-wrapper
-    height: 100%
-  .navbar 
-    min-height: 3.25rem
-    position: relative
-    z-index: 30
-    height: 10vh
-    display: flex
-    align-items: center
-  .section
-    padding: 0
 

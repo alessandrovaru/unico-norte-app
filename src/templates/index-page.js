@@ -4,8 +4,8 @@ import { Link, graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 // import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
-import MainCarrousel from "../components/MainCarrousel";
+import BlogRoll from "../components/BlogRoll/BlogRoll";
+import MainCarrousel from "../components/MainCarrousel/MainCarrousel";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -20,27 +20,20 @@ export const IndexPageTemplate = ({
 }) => {
 
   return (
-    <div>
+    <div className="index">
       <MainCarrousel slider={slider}/>
-      <section className="section section--gradient">
+      <section className="mid-section section section--gradient">
         <div className="container">
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
                   <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
+                    <div className="tile is-justify-content-center">
+                      <h1 className="title has-text-centered">{mainpitch.title}</h1>
                     </div>
-                    <div className="tile">
+                    <div className="tile is-flex-direction-column is-justify-content-center is-align-items-center">
                       <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
-                  </div>
-                  <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
                       <p>{description}</p>
                     </div>
                   </div>
@@ -53,6 +46,9 @@ export const IndexPageTemplate = ({
                     </div>
                   </div> */}
                   <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
+                      {heading}
+                    </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/blog">
@@ -122,6 +118,9 @@ export const pageQuery = graphql`
             childImageSharp {
               gatsbyImageData(quality: 100, layout: FULL_WIDTH)
             }
+          }
+          video {
+            publicURL
           }
           subheading
           youtube

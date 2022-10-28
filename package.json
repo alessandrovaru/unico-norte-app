@@ -31,7 +31,8 @@
     "react-vanilla-tilt": "^1.0.0",
     "sass": "^1.43.2",
     "swiper": "^8.4.4",
-    "uuid": "^8.0.0"
+    "uuid": "^8.0.0",
+    "vanilla-tilt": "^1.7.2"
   },
   "keywords": [
     "gatsby"
