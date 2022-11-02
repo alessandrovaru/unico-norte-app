@@ -3,31 +3,34 @@
 @import "https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat&display=swap"
 
 @import "~bulma"
-// Config vars
-// Kaldi logo brand color: #080808
 $kaldi-red: #151515
 $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-$body-color: #080808
+$body-color: #0e0e0e
 $black: #080808
 
 body
   overflow: hidden
+  background-color: $body-color
   h1,h2,h3,h4,h5,h6
     font-family: 'Kanit', sans-serif
     text-transform: uppercase
     transition: all 1s ease-in-out
+    color: white !important
+  p,span, a
+    color: white !important
   button
     transition: all 1s ease-in-out
   img
     border-radius: 15px
+  
 //mid section
 .index
   .mid-section
     padding: 0 3rem 
-    background: white
+    background: $body-color
     position: relative
 
 
@@ -76,11 +79,11 @@ body
     font-size: 18px
     font-size: 1rem
     line-height: 1.25
-    background-color: #fff
+    background-color: transparent
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #080808
+    color: #ffffff
     text-align: center
     -webkit-box-shadow: inset 0 0 0 2px #080808
     box-shadow: inset 0 0 0 2px #080808
