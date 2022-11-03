@@ -19,6 +19,8 @@ function Tilt(props) {
 }
 
 
+
+
 const MainCarrousel = ({slider}) => {
   console.log(slider);
   const slideContent = slider.map((slider) => 
@@ -44,7 +46,7 @@ const MainCarrousel = ({slider}) => {
         </div>
         {slider.video && 
           <>
-             <video className='slider-video' controls autoPlay muted>
+             <video className='slider-video' controls autoPlay muted loop>
               <source src={slider.video.publicURL} type="video/mp4" />
             </video>
           </>
@@ -61,6 +63,7 @@ const MainCarrousel = ({slider}) => {
     
     <Tilt className="box" options={options}>
       <Swiper
+        data-aos="fade-up"
         direction='vertical'
         slidesPerView={"auto"}
         centeredSlides={true}
