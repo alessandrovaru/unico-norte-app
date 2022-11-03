@@ -1,11 +1,6 @@
 ---
 templateKey: index-page
 slider:
-  - youtube: https://youtu.be/TY0FMPZBWHM
-    title: NUBLADO
-    subheading: Yarge, suei
-    image: /img/308672193_175537458340137_291755176686371964_n-1-.jpg
-    video: ""
   - title: Suerte
     subheading: Bella Ferro
     youtube: https://youtu.be/9_fAZmQ5YLA
@@ -20,6 +15,10 @@ slider:
     subheading: Daniela Barranco
     youtube: https://www.youtube.com/watch?v=7tFEDhjgngs&ab_channel=Yarge
     video: /img/untitled-1-.mp4
+  - title: NUBLADO
+    subheading: YARGE, SUEI
+    youtube: https://www.youtube.com/watch?v=TY0FMPZBWHM&ab_channel=Yarge
+    image: /img/307794485_855293465848510_4020507997184197280_n.jpg
 title: Great coffee with a conscience
 image: /img/home-jumbotron.jpg
 heading: Porfolio
