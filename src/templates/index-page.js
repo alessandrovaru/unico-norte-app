@@ -29,10 +29,14 @@ export const IndexPageTemplate = ({
               <div className="column is-10 is-offset-1">
                 <div className="content">
                   <div className="content">
-                    <div data-aos="fade-up" className="tile is-justify-content-center">
+                    <div 
+                    // data-aos="fade-up" 
+                    className="tile is-justify-content-center">
                       <h1 className="title has-text-centered">{mainpitch.title}</h1>
                     </div>
-                    <div data-aos="fade-up" className="tile is-flex-direction-column is-justify-content-center is-align-items-center">
+                    <div
+                    // data-aos="fade-up" 
+                    className="tile is-flex-direction-column is-justify-content-center is-align-items-center">
                       <h3 className="subtitle has-text-centered">{mainpitch.description}</h3>
                       <p>{description}</p>
                     </div>
@@ -45,7 +49,9 @@ export const IndexPageTemplate = ({
                       </Link>
                     </div>
                   </div> */}
-                  <div data-aos="fade-up" className="column is-12">
+                  <div 
+                  //data-aos="fade-up" 
+                  className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2 has-text-centered">
                       {heading}
                     </h3>
