@@ -63,7 +63,7 @@ const MainCarrousel = ({slider}) => {
     
     <Tilt className="box" options={options}>
       <Swiper
-        data-aos="fade-up"
+        // data-aos="fade-up"
         direction='vertical'
         slidesPerView={"auto"}
         centeredSlides={true}
