@@ -20,7 +20,7 @@ export const IndexPageTemplate = ({
 }) => {
 
   return (
-    <div className="index">
+    <div data-aos="fade-up" className="index">
       <MainCarrousel slider={slider}/>
       <section className="mid-section section section--gradient">
         <div className="container">
