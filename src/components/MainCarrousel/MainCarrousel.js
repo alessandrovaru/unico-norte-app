@@ -40,7 +40,7 @@ const MainCarrousel = ({slider}) => {
       <div className="slider-text">
         <h2 style={{color:"white"}}>{slider.title}</h2>
         <h3 style={{color:"white"}}>{slider.subheading}</h3>
-        <a href={slider.youtube} target='_blank'>
+        <a href={slider.youtube} target='_blank' rel='noreferrer'>
           <button><FaYoutube/><span>Ver en Youtube</span></button>
         </a>
       </div>

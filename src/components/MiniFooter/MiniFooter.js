@@ -5,7 +5,7 @@ const MiniFooter = () => {
   return (
     <div className="mini-footer">
       <div>
-        Made by ALESSANDROVARU®
+        Made with love by ALESSANDROVARU®
       </div>
     </div>
   )

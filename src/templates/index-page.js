@@ -56,10 +56,10 @@ export const IndexPageTemplate = ({
                       {heading}
                     </h3>
                     <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
+                    <div className="index-more">
+                      <button className="btn" to="/blog">
                         Descubre más
-                      </Link>
+                      </button>
                     </div>
                   </div>
                 </div>
