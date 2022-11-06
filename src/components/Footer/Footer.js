@@ -1,11 +1,9 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/logoWhite.png";
-import facebook from "../img/social/facebook.svg";
-import instagram from "../img/social/instagram.svg";
-import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
+import logo from "../../img/logoWhite.png";
+import { FaTwitter, FaFacebook, FaYoutube, FaLinkedin } from 'react-icons/fa';
+import './styles.sass'
 
 const Footer = class extends React.Component {
   render() {
@@ -20,7 +18,7 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
             <div style={{ maxWidth: "100vw" }} className="columns">
-              <div className="column is-6">
+              <div className="column is-12">
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
@@ -37,6 +35,16 @@ const Footer = class extends React.Component {
                       <Link className="navbar-item" to="/blog">
                         Porfolio
                       </Link>
+                    </li>
+                    <li>
+                      <a
+                        className="navbar-item"
+                        href="/admin/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Admin
+                      </a>
                     </li>
                     {/* <li>
                       <Link className="navbar-item" to="/products">
@@ -60,25 +68,24 @@ const Footer = class extends React.Component {
                     </li> */}
                   </ul>
                 </section>
-              </div>
-              
-              <div className="column is-6 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com/uniconorte">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-              </div>
+              </div>            
             </div>
+            <div style={{ maxWidth: "100vw" }} className="columns is-centered">
+                <div className="column is-4 social">
+                  <a title="instagram" href="https://instagram.com/uniconorte">
+                    <FaFacebook />
+                  </a>
+                  <a title="instagram" href="https://instagram.com/uniconorte">
+                    <FaTwitter />
+                  </a>
+                  <a title="instagram" href="https://instagram.com/uniconorte">
+                    <FaYoutube />
+                  </a>
+                  <a title="instagram" href="https://instagram.com/uniconorte">
+                    <FaLinkedin />
+                  </a>
+                </div>
+              </div>
           </div>
         </div>
       </footer>

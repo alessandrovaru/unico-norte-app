@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
@@ -40,7 +40,7 @@ const TemplateWrapper = ({ children }) => {
       // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
       offset: 120, // offset (in px) from the original trigger point
       delay: 120, // values from 0 to 3000, with step 50ms
-      duration: 3000, // values from 0 to 3000, with step 50ms
+      duration: 2200, // values from 0 to 3000, with step 50ms
       easing: 'ease', // default easing for AOS animations
       once: false, // whether animation should happen only once - while scrolling down
       mirror: false, // whether elements should animate out while scrolling past them

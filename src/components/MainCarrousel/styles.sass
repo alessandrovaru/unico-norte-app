@@ -14,19 +14,59 @@
   overflow: hidden
   box-shadow: 1px 1px 14px #4e4e4e87
   cursor: grab
+  .slider-text
+    position: absolute
+    z-index: 2
+    display: flex
+    flex-direction: column
+    align-items: center
+    transition: all 1s ease-in-out
+    h2
+      color: transparent !important
+      font-size: 40px
+      -webkit-text-stroke-width: 1px
+      -webkit-text-stroke-color: white
+      font-weight: bold
+    h3
+      color: transparent !important
+      font-size: 80px
+      -webkit-text-stroke-width: 1px
+      -webkit-text-stroke-color: white
+      font-weight: bold
   button
     background: transparent
     color: white
-    border: 1px solid
-    border-radius: 6px
-    padding: 15px 30px
+    border: transparent
+    border-radius: 5px
+    padding: 5px 10px
+    margin-top: 10px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    span
+      color: white
+      font-size: 8px
+      font-weight: bold
+      margin-left: 8px
+      text-transform: uppercase
+    svg
+      font-size: 20px
+      margin: 0
+      
   &:hover
-    .slider-text h2, h3
-      color: white !important
+    .slider-text 
+      transform: scale(1.5)
+      h2
+        color: white !important
+      h3
+        color: white !important
     button
       background: white
       color: black
       cursor: pointer
+      span
+        color: black !important
+    
 .box
   box-shadow: none !important
   background: transparent !important
@@ -46,25 +86,8 @@
 video::-webkit-media-controls 
   display: none
 
-.slider-text
-  position: absolute
-  z-index: 2
-  display: flex
-  flex-direction: column
-  align-items: center
-  h2
-    color: transparent !important
-    font-size: 80px
-    -webkit-text-stroke-width: 3px
-    -webkit-text-stroke-color: white
-    font-weight: 600
-   
-  h3
-    color: transparent !important
-    font-size: 120px
-    -webkit-text-stroke-width: 3px
-    -webkit-text-stroke-color: white
-    font-weight: 600
+
+
 
 +mobile
   .swiper 
