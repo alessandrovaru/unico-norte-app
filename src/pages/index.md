@@ -1,5 +1,4 @@
 ---
-templateKey: index-page
 slider:
   - title: Suerte
     subheading: Bella Ferro
@@ -19,27 +18,21 @@ slider:
     subheading: YARGE, SUEI
     youtube: https://www.youtube.com/watch?v=TY0FMPZBWHM&ab_channel=Yarge
     image: /img/307794485_855293465848510_4020507997184197280_n.jpg
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+  - title: Dirección Opuesta
+    subheading: "Gran Radio Riviera & Razzer Buccarelli "
+    youtube: https://www.youtube.com/watch?v=E8tB9aHSivw&list=PLgqTB1OjE8Y2nOBjycjI2g2sCDIlWV3WF&ab_channel=GranRadioRiviera
+    image: /img/286461080_1021256008496218_48686206980622416_n.jpg
 heading: Porfolio
 subheading: Support sustainable farming while enjoying a cup
+templateKey: index-page
 mainpitch:
   title: UNICONORTE
   description: sadasdasdsad
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-  varius enim vestibulum, molestie mauris in, pretium augue. Etiam semper
-  faucibus odio, sit amet tincidunt sem. Nulla hendrerit tempor sagittis. Nunc
-  consectetur ac lorem ac mollis. Integer ex dolor, luctus eu suscipit laoreet,
-  imperdiet vitae ex. Fusce non massa tristique, consectetur ipsum eget,
-  dignissim ante. Praesent consectetur semper urna, et varius erat tincidunt
-  nec. Maecenas nec lacinia nisl. Ut vitae magna nec ipsum tincidunt congue.
-  Morbi placerat risus et sapien iaculis iaculis. Duis elit lorem, mollis sit
-  amet vulputate sed, pellentesque sed massa. Etiam ultrices nulla ac lacinia
-  commodo. Fusce rhoncus dolor eu justo tristique, ac finibus neque dignissim.
 intro:
   blurbs: []
   heading: What we offer
   description: "\n"
+title: Great coffee with a conscience
 main:
   heading: Great coffee with no compromises
   description: >
@@ -56,4 +49,15 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+image: /img/home-jumbotron.jpg
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+  varius enim vestibulum, molestie mauris in, pretium augue. Etiam semper
+  faucibus odio, sit amet tincidunt sem. Nulla hendrerit tempor sagittis. Nunc
+  consectetur ac lorem ac mollis. Integer ex dolor, luctus eu suscipit laoreet,
+  imperdiet vitae ex. Fusce non massa tristique, consectetur ipsum eget,
+  dignissim ante. Praesent consectetur semper urna, et varius erat tincidunt
+  nec. Maecenas nec lacinia nisl. Ut vitae magna nec ipsum tincidunt congue.
+  Morbi placerat risus et sapien iaculis iaculis. Duis elit lorem, mollis sit
+  amet vulputate sed, pellentesque sed massa. Etiam ultrices nulla ac lacinia
+  commodo. Fusce rhoncus dolor eu justo tristique, ac finibus neque dignissim.
 ---
