@@ -15,7 +15,8 @@ module.exports = {
         // This object is used for configuration specific to this plugin
         pluginConfig: {
           // Puts tracking script in the head instead of the body
-          head: false,
+          head: true,
+          origin: "https://www.googletagmanager.com/gtag/js?id=G-YN0YYXD2C6",
         },
       },
     },
