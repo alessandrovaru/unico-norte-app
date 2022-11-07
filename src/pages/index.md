@@ -27,7 +27,7 @@ subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
 mainpitch:
   title: UNICONORTE
-  description: sadasdasdsad
+  description: PRODUCTORA AUDIOVISUAL
 intro:
   blurbs: []
   heading: What we offer
