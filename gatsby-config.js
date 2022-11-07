@@ -6,18 +6,20 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          'G-YN0YYXD2C6',
-        ],
-        // This object is used for configuration specific to this plugin
-        pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: true,
-          origin: "https://www.googletagmanager.com/gtag/js?id=G-YN0YYXD2C6",
-        },
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "G-YN0YYXD2C6",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Defers execution of google analytics script after page load
+        defer: true,
+        // Any additional optional fields
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "www.uniconorte.com",
+        // defaults to false
+        enableWebVitalsTracking: true,
       },
     },
     "gatsby-plugin-react-helmet",
