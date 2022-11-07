@@ -11,7 +11,7 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "G-YN0YYXD2C6",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: false,
+        head: true,
         // Defers execution of google analytics script after page load
         defer: true,
         // Any additional optional fields
