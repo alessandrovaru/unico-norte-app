@@ -57,9 +57,11 @@ export const IndexPageTemplate = ({
                     </h3>
                     <BlogRoll />
                     <div className="index-more">
-                      <button className="btn" to="/blog">
-                        Descubre más
-                      </button>
+                      <Link to='/portfolio'>
+                        <button className="btn">
+                          Descubre más
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
