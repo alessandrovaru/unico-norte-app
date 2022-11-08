@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "UNICONORTE",
+    title: "Único Norte Visual Arts || Sigue tu norte, sé único.",
     description:
-      "Bienvenido al Porfolio de UNICONORTE. Productora Audiovisual establecida en Caracas, Venezuela.",
+      "Bienvenido al Porfolio de ÚNICO NORTE. Productora Audiovisual establecida en Caracas, Venezuela. Productora audiovisual | Conceptualización | Postproducción",
+    image: `src/img/logoBlack.png`,
+    siteUrl: `https://www.uniconorte.com`,
   },
   plugins: [
     {
