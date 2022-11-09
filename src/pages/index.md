@@ -2,20 +2,24 @@
 slider:
   - title: "2022"
     subheading: REEL
-    video: /img/preview-reel.mp4
     youtube: https://www.youtube.com/watch?v=H7EH4zHxJbs&ab_channel=%C3%9ANICONORTE
+    video: /img/preview-reel.mp4
+    image: /img/286349431_456733576262240_1824747186245300646_n.jpg
   - title: Nohi
     subheading: LO NUESTRO
     youtube: https://www.youtube.com/watch?v=jskOE_hdQ-I&ab_channel=Nohi
     video: /img/nohi-lo-nuestro.mp4
+    image: /img/278045700_1130511567492811_1526438828322301275_n.webp
   - title: YARGE FT. SUEI
+    youtube: https://www.youtube.com/watch?v=TY0FMPZBWHM
     subheading: NUBLADO
-    youtube: https://www.youtube.com/watch?v=TY0FMPZBWHM&ab_channel=Yarge
     video: /img/yarge-suei-nublado.mp4
+    image: /img/308672193_175537458340137_291755176686371964_n-1-.jpg
   - title: GUSTAVO ELIS FT BLACKY & LOUIS
-    video: /img/gustavo-elis-burde-feliz.mp4
     subheading: BURDA DE FELIZ
     youtube: https://www.youtube.com/watch?v=2KFtAU2l8K0&ab_channel=GustavoElis
+    video: /img/gustavo-elis-burde-feliz.mp4
+    image: /img/280546164_1110964833161267_3579065199935997158_n.jpg
 heading: Portafolio
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
