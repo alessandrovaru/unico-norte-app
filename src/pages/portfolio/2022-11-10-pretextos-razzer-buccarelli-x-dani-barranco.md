@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Pretextos - Razzer Buccarelli x Dani Barranco
+title: PRETEXTOS - RAZZER BUCCARELLI X DANI BARRANCO
 date: 2021-08-17T02:00:20.179Z
 description: MUSIC VIDEO
 featuredpost: true
