@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Orgullo (Mami Y Papi) - Dani Barranco
+title: ORGULLO (MAMI Y PAPI) - DANI BARRANCO
 date: 2021-04-23T16:00:03.155Z
 description: MUSIC VIDEO
 featuredpost: true
