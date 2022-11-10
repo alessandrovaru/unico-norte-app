@@ -1,13 +1,13 @@
 ---
 templateKey: blog-post
-title: ALGUIEN - TELLER
+title: ALGUIEN - TELLER (LIVE)
 date: 2021-08-22T04:00:42.197Z
-description: MUSIC VIDEO
+description: LIVE
 featuredpost: true
 featuredimage: /img/teller-live.png
 tags:
   - TELLER
-  - MUSICVIDEO
+  - LIVE
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AlV7vzo635s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
