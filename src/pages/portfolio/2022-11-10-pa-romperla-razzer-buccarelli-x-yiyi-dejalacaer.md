@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Pa' Romperla - Razzer Buccarelli x YiYi Dejalacaer
+title: PA' ROMPERLA - RAZZER BUCCARELLI X YIYI DEJALACAER
 date: 2021-10-22T21:00:08.059Z
 description: MUSIC VIDEO
 featuredpost: true
