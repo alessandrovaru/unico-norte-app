@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: LOWCOST - MANGUS
-date: 2022-11-10T14:56:37.020Z
+date: 2020-12-18T16:00:37.020Z
 description: MUSIC VIDEO
 featuredpost: true
 featuredimage: /img/mangus-lowcost.png
