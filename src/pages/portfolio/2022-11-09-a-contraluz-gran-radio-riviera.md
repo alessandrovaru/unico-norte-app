@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: A CONTRALUZ - GRAN RADIO RIVIERA
-date: 2022-11-09T21:47:22.247Z
+date: 2020-04-10T04:00:22.247Z
 description: MUSIC VIDEO
 featuredpost: false
 featuredimage: /img/a-contraluz.png
@@ -9,7 +9,7 @@ tags:
   - GRR
   - ACONTRALUZ
 ---
-<https://www.youtube.com/watch?v=ptuInu7qRn0&ab_channel=GranRadioRiviera>
+<iframe width="560" height="315" src="<https://www.youtube.com/watch?v=ptuInu7qRn0&ab_channel=GranRadioRiviera>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe
 
 Producción Audiovisual 
 
