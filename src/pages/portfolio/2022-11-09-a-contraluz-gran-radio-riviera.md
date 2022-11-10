@@ -9,9 +9,9 @@ tags:
   - GRR
   - ACONTRALUZ
 ---
-<iframe width="560" height="315" src="<https://www.youtube.com/watch?v=ptuInu7qRn0&ab_channel=GranRadioRiviera>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ptuInu7qRn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Producción Audiovisual 
+Producción Audiovisual
 
 Productora: Único Norte Visual Arts 
 
