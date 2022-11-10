@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: THALIA, LA MALDITA - MOTHERFLOWERS
-date: 2022-11-10T20:27:30.093Z
+date: 2021-06-19T04:30:30.093Z
 description: MUSIC VIDEO
 featuredpost: true
 featuredimage: /img/motherflowers-thalia-la-maldita.png
