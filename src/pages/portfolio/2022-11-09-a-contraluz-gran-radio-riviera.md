@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: A CONTRALUZ - GRAN RADIO RIVIERA
+title: A CONTRALUZ
+subtitle: GRAN RADIO RIVIERA
 date: 2020-04-10T04:00:22.247Z
 description: MUSIC VIDEO
 featuredpost: false
