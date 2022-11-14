@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: LO NUESTRO - NOHI
+title: LO NUESTRO
+subtitle: NOHI
 date: 2022-10-28T04:00:02.271Z
 description: MUSIC VIDEO
 featuredpost: true

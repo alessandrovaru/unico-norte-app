@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: KRONOS - ANNYBELL
+title: KRONOS
+subtitle: ANNYBELL
 date: 2022-03-03T21:34:43.869Z
 description: MUSIC VIDEO
 featuredpost: true

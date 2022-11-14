@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: "4D - XICO (ft. @Irepelusa) "
+title: "4D"
+subtitle: XICO (ft. @Irepelusa) 
 date: 2021-06-18T15:51:59.657Z
 description: MUSIC VIDEO
 featuredpost: true

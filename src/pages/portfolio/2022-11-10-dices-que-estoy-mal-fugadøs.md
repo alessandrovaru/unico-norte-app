@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: DICES QUE ESTOY MAL - FUGADØS
+title: DICES QUE ESTOY MAL
+subitle: FUGADØS
 date: 2021-01-21T16:00:57.261Z
 description: MUSIC VIDEO
 featuredpost: true

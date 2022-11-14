@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: NUBLADO - YARGE FT. SUEI
+title: NUBLADO
+subtitle: YARGE FT. SUEI
 date: 2022-09-22T00:00:39.813Z
 description: MUSIC VIDEO
 featuredpost: true

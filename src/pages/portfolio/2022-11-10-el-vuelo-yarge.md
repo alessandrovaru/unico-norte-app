@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: EL VUELO - YARGE
+title: EL VUELO
+subtitle: YARGE
 date: 2022-04-14T02:00:33.830Z
 description: MUSIC VIDEO
 featuredpost: true

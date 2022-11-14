@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: LA DE LLAMARTE - GRAN RADIO RIVIERA FT. VERA DELACRUZ & DAF1012
+title: LA DE LLAMARTE
+subtitle: GRAN RADIO RIVIERA FT. VERA DELACRUZ & DAF1012
 date: 2022-08-11T22:00:07.678Z
 description: MUSIC VIDEO
 featuredpost: true

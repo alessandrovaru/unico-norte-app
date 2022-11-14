@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: ODIO (COBARDE) - DANI BARRANCO
+title: ODIO (COBARDE)
+subtitle: DANI BARRANCO
 date: 2021-08-21T02:22:17.695Z
 description: MUSIC VIDEO
 featuredpost: true

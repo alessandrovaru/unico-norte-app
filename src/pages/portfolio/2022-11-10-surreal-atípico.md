@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: SURREAL - ATÍPICO
+title: SURREAL
+subtitle: ATÍPICO
 date: 2021-06-18T20:10:33.732Z
 description: MUSIC VIDEO
 featuredpost: true

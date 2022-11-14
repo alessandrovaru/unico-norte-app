@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: Soñándola - Gran Radio Riviera
+title: Soñándola
+subtitle: Gran Radio Riviera
 date: 2021-08-27T22:00:13.887Z
 description: MUSIC VIDEO
 featuredpost: true

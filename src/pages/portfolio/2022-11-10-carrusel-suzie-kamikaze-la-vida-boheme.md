@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: CARRUSEL/SUZIE KAMIKAZE - LA VIDA BOHEME
+title: CARRUSEL/SUZIE KAMIKAZE
+subtitle: LA VIDA BOHEME
 date: 2022-06-10T04:00:50.831Z
 description: MUSIC VIDEO
 featuredpost: true

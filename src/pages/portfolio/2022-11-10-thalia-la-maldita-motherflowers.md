@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: THALIA, LA MALDITA - MOTHERFLOWERS
+title: THALIA, LA MALDITA
+subtitle: MOTHERFLOWERS
 date: 2021-06-19T04:30:30.093Z
 description: MUSIC VIDEO
 featuredpost: true

@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: BURDA DE FELIZ - GUSTAVO ELIS FT. BLACKIE & LOIS
+title: BURDA DE FELIZ
+subtitle: GUSTAVO ELIS FT. BLACKIE & LOIS
 date: 2022-09-02T00:00:30.651Z
 description: MUSIC VIDEO
 featuredpost: true

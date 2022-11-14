@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: BLACKOUT - RAZZER BUCCARELLI X YIYI DEJALACAER
+title: BLACKOUT
+subtitle: RAZZER BUCCARELLI X YIYI DEJALACAER
 date: 2021-12-12T04:00:25.985Z
 description: MUSIC VIDEO
 featuredpost: true

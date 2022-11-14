@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: "YA NO + FRANK LUCAS FT. OH!DULCEARi "
+title: "YA NO"
+subtitle: FRANK LUCAS FT. OH!DULCEARi
 date: 2021-12-03T21:00:43.763Z
 description: MUSIC VIDEO
 featuredpost: true

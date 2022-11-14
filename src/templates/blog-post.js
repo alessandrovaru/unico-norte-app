@@ -5,6 +5,8 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+
 
 // eslint-disable-next-line
 export const BlogPostTemplate = ({
@@ -15,6 +17,7 @@ export const BlogPostTemplate = ({
   title,
   subtitle,
   helmet,
+  featuredimage
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -24,13 +27,28 @@ export const BlogPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light m-0">
-              {title}
-            </h1>
-            <h2 className="title is-size-4 has-text-weight-bold is-bold-light m-0">
-              {subtitle}
-            </h2>
-            <p>{description}</p>
+            <section class="container is-fluid is-relative">
+              <div class="hero-body">
+                <div className="hero-body-text">
+                  <p class="title">
+                    {title}
+                  </p>
+                  <p class="subtitle">
+                    {subtitle}
+                  </p>
+                </div>
+                <div className="hero-body-image">
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: featuredimage,
+                      alt: `featured image thumbnail for post ${title}`,
+                    }}
+                  />
+                </div>
+              </div>
+            </section>
+            
+            <h2>{description}</h2>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -58,6 +76,7 @@ BlogPostTemplate.propTypes = {
   title: PropTypes.string,
   subtitle: PropTypes.string,
   helmet: PropTypes.object,
+  featuredimage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
 const BlogPost = ({ data }) => {
@@ -81,6 +100,7 @@ const BlogPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
+        featuredimage={post.frontmatter.featuredimage}
       />
     </Layout>
   );
@@ -104,6 +124,15 @@ export const pageQuery = graphql`
         title
         subtitle
         description
+        featuredimage {
+          childImageSharp {
+            gatsbyImageData(
+              quality: 100
+              layout: CONSTRAINED
+            )
+
+          }
+        }
         tags
       }
     }

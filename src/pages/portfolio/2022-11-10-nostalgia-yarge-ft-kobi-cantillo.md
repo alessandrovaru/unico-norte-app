@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: NOSTALGIA - YARGE FT. KOBI CANTILLO
+title: NOSTALGIA
+subtitle: YARGE FT. KOBI CANTILLO
 date: 2022-08-24T23:00:00.086Z
 description: MUSIC VIDEO
 featuredpost: true

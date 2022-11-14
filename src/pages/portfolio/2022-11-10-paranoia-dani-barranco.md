@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: PARANOIA - DANI BARRANCO
+title: PARANOIA
+subtitle: DANI BARRANCO
 date: 2021-10-02T00:00:39.424Z
 description: MUSIC VIDEO
 featuredpost: true

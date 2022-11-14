@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: SUERTE - BELLA FERRO
+title: SUERTE
+subtitle: BELLA FERRO
 date: 2022-04-01T22:00:03.906Z
 description: MUSIC VIDEO
 featuredpost: true

@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: PERSONAL - RAZZER BUCCARELLI
+title: PERSONAL
+subtitle: RAZZER BUCCARELLI
 date: 2022-07-29T00:00:35.366Z
 description: MUSIC VIDEO
 featuredpost: true

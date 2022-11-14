@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: INVISIBLE - ANNYBELL FT. GONA x OKAA
+title: INVISIBLE
+subtitle: ANNYBELL FT. GONA x OKAA
 date: 2022-06-04T00:00:54.348Z
 description: MUSIC VIDEO
 featuredpost: true

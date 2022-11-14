@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: TEMPO - GRAN RADIO RIVIERA & DANI BARRANCO
+title: TEMPO
+subtitle: GRAN RADIO RIVIERA & DANI BARRANCO
 date: 2021-03-26T16:20:37.409Z
 description: MUSIC VIDEO
 featuredpost: true

@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
-title: DAME UN CHANCE - MARCOS MS
+title: DAME UN CHANCE
+subtitle: MARCOS MS
 date: 2022-05-13T22:00:22.521Z
 description: MUSIC VIDEO
 featuredpost: true
