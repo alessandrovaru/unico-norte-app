@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: LIKE 
-subitle: RAZZER BUCCARELLI
+subtitle: RAZZER BUCCARELLI
 date: 2020-12-11T16:00:29.720Z
 description: MUSIC VIDEO
 featuredpost: true
