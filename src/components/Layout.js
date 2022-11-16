@@ -7,11 +7,10 @@ import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 import { useEffect } from "react";
 import MiniFooter from "./MiniFooter/MiniFooter";
+
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 
 
 const TemplateWrapper = ({ children }) => {
