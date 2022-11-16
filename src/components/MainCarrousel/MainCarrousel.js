@@ -7,8 +7,6 @@ import VanillaTilt from 'vanilla-tilt';
 import './styles.sass'
 import { FaYoutube } from 'react-icons/fa';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function Tilt(props) {
   const { options, ...rest } = props;
