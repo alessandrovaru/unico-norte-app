@@ -10,7 +10,9 @@ function Tilt(props) {
   const tilt = useRef(null);
 
   useEffect(() => {
-    VanillaTilt.init(tilt.current, options);
+    if (!navigator.userAgent.match(/iPhone/i)) {
+      VanillaTilt.init(tilt.current, options);
+    }
   }, [options]);
 
   return <div ref={tilt} {...rest} />;
