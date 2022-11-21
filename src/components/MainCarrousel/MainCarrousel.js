@@ -1,4 +1,4 @@
-import React, { useEffect, useRef  } from 'react'
+import React, { useEffect, useRef, useState  } from 'react'
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
@@ -8,22 +8,32 @@ import './styles.sass'
 import { FaYoutube } from 'react-icons/fa';
 
 
-function Tilt(props) {
-  const { options, ...rest } = props;
-  const tilt = useRef(null);
-  useEffect(() => {
-    if (!navigator.userAgent.match(/iPhone/i)) {
-      VanillaTilt.init(tilt.current, options);
-    }
-  }, [options]);
-
-  return <div ref={tilt} {...rest} />;
-}
 
 
 
 
 const MainCarrousel = ({slider}) => {   
+  const [mobile, setMobile] = useState([])
+  const [activeSlideKeyNumber, setActiveSlideKeyNumber] = useState('0')
+  function Tilt(props) {
+    const { options, ...rest } = props;
+    const tilt = useRef(null);
+    useEffect(() => {
+      if (!navigator.userAgent.match(/iPhone/i)) {
+        VanillaTilt.init(tilt.current, options);
+      }
+    }, [options]);
+  
+    return <div ref={tilt} {...rest} />;
+  }
+  useEffect(() => {
+    if (window.innerWidth < 960) {
+      setMobile(true)
+      setActiveSlideKeyNumber('1')
+    }
+  }, [])
+  
+
   const slideContent = slider.map((slider, index) => 
     <SwiperSlide key={index} className="slide" >
       {slider.image && 
@@ -54,10 +64,10 @@ const MainCarrousel = ({slider}) => {
     </SwiperSlide>
   )
   const options = {
-    
     speed: 1000,
     max: 30
   };
+  const uno = '1'
   return (
     
     <Tilt className="box" options={options}>
@@ -69,6 +79,7 @@ const MainCarrousel = ({slider}) => {
         pagination={{
           clickable: true,
         }}
+        initialSlide={activeSlideKeyNumber}
         modules={[Pagination]}
         className="mySwiper"
       >
