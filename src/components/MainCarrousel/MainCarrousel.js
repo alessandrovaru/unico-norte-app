@@ -7,11 +7,6 @@ import VanillaTilt from 'vanilla-tilt';
 import './styles.sass'
 import { FaYoutube } from 'react-icons/fa';
 
-
-
-
-
-
 const MainCarrousel = ({slider}) => {   
   const [mobile, setMobile] = useState([])
   const [activeSlideKeyNumber, setActiveSlideKeyNumber] = useState('0')
