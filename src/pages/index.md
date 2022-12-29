@@ -5,6 +5,11 @@ slider:
     youtube: https://www.youtube.com/watch?v=H7EH4zHxJbs&ab_channel=%C3%9ANICONORTE
     video: /img/preview-reel.mp4
     image: /img/286349431_456733576262240_1824747186245300646_n.jpg
+  - video: /img/omar-magica.mp4
+    youtube: https://www.youtube.com/watch?v=Mpimp9eQlUM&ab_channel=OmarK11VEVO
+    title: Omar K11
+    subheading: Mágica
+    image: /img/magica.00_00_00_13.imagen-fija008.png
   - title: Nohi
     subheading: LO NUESTRO
     youtube: https://www.youtube.com/watch?v=jskOE_hdQ-I&ab_channel=Nohi
