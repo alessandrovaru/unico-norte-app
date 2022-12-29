@@ -25,8 +25,9 @@ const MainCarrousel = ({slider}) => {
     if (window.innerWidth < 960) {
       setMobile(true)
       setActiveSlideKeyNumber('1')
+      console.log(mobile);
     }
-  }, [])
+  }, [mobile])
   
 
   const slideContent = slider.map((slider, index) => 
@@ -62,7 +63,6 @@ const MainCarrousel = ({slider}) => {
     speed: 1000,
     max: 30
   };
-  const uno = '1'
   return (
     
     <Tilt className="box" options={options}>
