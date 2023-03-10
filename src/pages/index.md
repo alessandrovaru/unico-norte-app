@@ -1,8 +1,8 @@
 ---
 slider:
-  - title: "2022"
+  - title: "2023"
     subheading: REEL
-    youtube: https://www.youtube.com/watch?v=H7EH4zHxJbs&ab_channel=%C3%9ANICONORTE
+    youtube: https://youtu.be/vckj5Iv2ggI
     video: /img/preview-reel.mp4
     image: /img/286349431_456733576262240_1824747186245300646_n.jpg
   - youtube: https://www.youtube.com/watch?v=5yZr6pETJxY&ab_channel=ElioLeiros
