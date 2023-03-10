@@ -5,6 +5,18 @@ slider:
     youtube: https://www.youtube.com/watch?v=H7EH4zHxJbs&ab_channel=%C3%9ANICONORTE
     video: /img/preview-reel.mp4
     image: /img/286349431_456733576262240_1824747186245300646_n.jpg
+  - youtube: https://www.youtube.com/watch?v=5yZr6pETJxY&ab_channel=ElioLeiros
+    subheading: ¿Qué Será?
+    video: /img/elio-razzer-que-sera.mp4
+    title: ELIO LEIROS & RAZZER BUCCARELLI
+  - video: /img/razzer-el-telefono.mp4
+    title: Razzer Bucarelli
+    subheading: X teléfono
+    youtube: https://www.youtube.com/watch?v=lv8ro8iK1h0&ab_channel=RazzerBuccarelli
+  - title: Razzer Buccarelli
+    video: /img/el-sofa-razzer.mp4
+    youtube: https://www.youtube.com/watch?v=cWsymgP6XHg&ab_channel=RazzerBuccarelli
+    subheading: El Sofá
   - video: /img/omar-magica.mp4
     youtube: https://www.youtube.com/watch?v=Mpimp9eQlUM&ab_channel=OmarK11VEVO
     title: Omar K11
