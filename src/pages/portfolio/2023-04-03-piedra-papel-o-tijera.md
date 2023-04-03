@@ -5,7 +5,7 @@ subtitle: RAZZER, JUNIOR CALDERA, AKAPELLAH
 date: 2023-04-03T22:22:28.223Z
 description: MUSIC VIDEO
 featuredpost: true
-featuredimage: /img/ppotstills_1.1.8.jpg
+featuredimage: /img/ppotstills_1.1.30.jpg
 tags:
   - MUSICVIDEO
   - RAZZER
