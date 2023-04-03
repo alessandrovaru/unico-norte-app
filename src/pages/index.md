@@ -5,6 +5,14 @@ slider:
     youtube: https://youtu.be/vckj5Iv2ggI
     video: /img/preview-reel.mp4
     image: /img/286349431_456733576262240_1824747186245300646_n.jpg
+  - title: ELIO LEIROS
+    subheading: PÉGATE
+    youtube: https://www.youtube.com/watch?v=iPJhh_dPJfQ&ab_channel=ElioLeiros
+    video: /img/pégate.mp4
+  - title: RAZZER, JUNIOR CALDERA, AKAPELLAH
+    subheading: PIEDRA PAPEL O TIJERA
+    youtube: https://www.youtube.com/watch?v=fRrzxYSXAtw&ab_channel=RazzerBuccarelli
+    video: /img/piedra-papel-o-tijera.mp4
   - youtube: https://www.youtube.com/watch?v=5yZr6pETJxY&ab_channel=ElioLeiros
     subheading: ¿Qué Será?
     video: /img/elio-razzer-que-sera.mp4
@@ -13,15 +21,6 @@ slider:
     title: Razzer Bucarelli
     subheading: X teléfono
     youtube: https://www.youtube.com/watch?v=lv8ro8iK1h0&ab_channel=RazzerBuccarelli
-  - title: Razzer Buccarelli
-    video: /img/el-sofa-razzer.mp4
-    youtube: https://www.youtube.com/watch?v=cWsymgP6XHg&ab_channel=RazzerBuccarelli
-    subheading: El Sofá
-  - video: /img/omar-magica.mp4
-    youtube: https://www.youtube.com/watch?v=Mpimp9eQlUM&ab_channel=OmarK11VEVO
-    title: Omar K11
-    subheading: Mágica
-    image: /img/magica.00_00_00_13.imagen-fija008.png
   - title: Nohi
     subheading: LO NUESTRO
     youtube: https://www.youtube.com/watch?v=jskOE_hdQ-I&ab_channel=Nohi
