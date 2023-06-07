@@ -5,37 +5,41 @@ slider:
     youtube: https://youtu.be/vckj5Iv2ggI
     video: /img/preview-reel.mp4
     image: /img/286349431_456733576262240_1824747186245300646_n.jpg
-  - title: ELIO LEIROS
-    subheading: PÉGATE
+  - title: KARINA
+    subheading: CUARENTA
     youtube: https://www.youtube.com/watch?v=iPJhh_dPJfQ&ab_channel=ElioLeiros
-    video: /img/pégate.mp4
-  - title: RAZZER, JUNIOR CALDERA, AKAPELLAH
-    subheading: PIEDRA PAPEL O TIJERA
-    youtube: https://www.youtube.com/watch?v=fRrzxYSXAtw&ab_channel=RazzerBuccarelli
-    video: /img/piedra-papel-o-tijera.mp4
-  - youtube: https://www.youtube.com/watch?v=5yZr6pETJxY&ab_channel=ElioLeiros
-    subheading: ¿Qué Será?
-    video: /img/elio-razzer-que-sera.mp4
-    title: ELIO LEIROS & RAZZER BUCCARELLI
-  - video: /img/razzer-el-telefono.mp4
-    title: Razzer Bucarelli
-    subheading: X teléfono
-    youtube: https://www.youtube.com/watch?v=lv8ro8iK1h0&ab_channel=RazzerBuccarelli
-  - title: Nohi
-    subheading: LO NUESTRO
+    video: /img/karina-cuarenta.mp4
+    image: /img/karina-cuarenta.png
+  - title: BRIELLA
+    subheading: QLQ
+    youtube: https://www.youtube.com/watch?v=RdE2Y8KUPDc&ab_channel=Briella
+    video: /img/briella-qlq.mp4
+    image: /img/briella-qlq.png
+  - youtube: https://www.youtube.com/watch?v=knNSsY4xWhw&ab_channel=DaniBarranco
+    subheading: NARCISISTA
+    video: /img/dani-narcisista.mp4
+    title: DANI BARRANCO
+    image: /img/dani-narcisista.png
+  - video: /img/elio-briella-se-le-ve.mp4
+    title: ELIO BRIELLA
+    subheading: SE LE VE
+    youtube: https://www.youtube.com/watch?v=eLdk6lZr4l4&ab_channel=ElioLeiros
+    image: /img/elio-briella-se-le-ve.png
+  - title: ISA SOFÍA
+    subheading: WEPALE
     youtube: https://www.youtube.com/watch?v=jskOE_hdQ-I&ab_channel=Nohi
-    video: /img/nohi-lo-nuestro.mp4
-    image: /img/278045700_1130511567492811_1526438828322301275_n.webp
-  - title: YARGE FT. SUEI
-    youtube: https://www.youtube.com/watch?v=TY0FMPZBWHM
-    subheading: NUBLADO
-    video: /img/yarge-suei-nublado.mp4
-    image: /img/308672193_175537458340137_291755176686371964_n-1-.jpg
-  - title: GUSTAVO ELIS FT BLACKY & LOUIS
-    subheading: BURDA DE FELIZ
-    youtube: https://www.youtube.com/watch?v=2KFtAU2l8K0&ab_channel=GustavoElis
-    video: /img/gustavo-elis-burde-feliz.mp4
-    image: /img/280546164_1110964833161267_3579065199935997158_n.jpg
+    video: /img/isa-sofia-wepale.mp4
+    image: /img/isa-sofia-wepale.png
+  - title: NOHI
+    youtube: https://www.youtube.com/watch?v=tWZp_p-Ys8w&ab_channel=Nohi
+    subheading: OXITOCINA
+    video: /img/nohi-oxitocina.mp4
+    image: /img/nohi-oxitocina.png
+  - title: DANI BARRANCO FT. JUNIOR CALDERA
+    subheading: GAFO
+    youtube: https://www.youtube.com/watch?v=H2KRLxbiqJQ&ab_channel=DaniBarranco
+    video: /img/dani-junior.mp4
+    image: /img/dani-junior-gafo.jpg
 heading: Portafolio
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
