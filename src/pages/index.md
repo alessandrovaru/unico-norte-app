@@ -2,45 +2,30 @@
 slider:
   - title: "2023"
     subheading: REEL
-    youtube: https://youtu.be/vckj5Iv2ggI
+    youtube: https://youtu.be/nze-VVG-Yy0?si=E3Sf2Qxf46d2awWw
     video: /img/preview-reel.mp4
-    image: /img/286349431_456733576262240_1824747186245300646_n.jpg
-  - title: KARINA
-    subheading: CUARENTA
-    youtube: https://www.youtube.com/watch?v=iPJhh_dPJfQ&ab_channel=ElioLeiros
-    video: /img/karina-cuarenta.mp4
-    image: /img/karina-cuarenta.png
-  - title: BRIELLA
-    subheading: QLQ
-    youtube: https://www.youtube.com/watch?v=RdE2Y8KUPDc&ab_channel=Briella
-    video: /img/briella-qlq.mp4
-    image: /img/briella-qlq.png
-  - youtube: https://www.youtube.com/watch?v=knNSsY4xWhw&ab_channel=DaniBarranco
-    subheading: NARCISISTA
-    video: /img/dani-narcisista.mp4
-    title: DANI BARRANCO
-    image: /img/dani-narcisista.png
-  - video: /img/elio-briella-se-le-ve.mp4
-    title: ELIO BRIELLA
-    subheading: SE LE VE
-    youtube: https://www.youtube.com/watch?v=eLdk6lZr4l4&ab_channel=ElioLeiros
-    image: /img/elio-briella-se-le-ve.png
-  - title: ISA SOFÍA
-    subheading: WEPALE
-    youtube: https://www.youtube.com/watch?v=jskOE_hdQ-I&ab_channel=Nohi
-    video: /img/isa-sofia-wepale.mp4
-    image: /img/isa-sofia-wepale.png
+    image: /img/briella-netsy.png
   - title: NOHI
-    youtube: https://www.youtube.com/watch?v=tWZp_p-Ys8w&ab_channel=Nohi
-    subheading: OXITOCINA
-    video: /img/nohi-oxitocina.mp4
-    image: /img/nohi-oxitocina.png
-  - title: DANI BARRANCO FT. JUNIOR CALDERA
-    subheading: GAFO
-    youtube: https://www.youtube.com/watch?v=H2KRLxbiqJQ&ab_channel=DaniBarranco
-    video: /img/dani-junior.mp4
-    image: /img/dani-junior-gafo.jpg
-heading: Portafolio
+    youtube: https://www.youtube.com/watch?v=Sg9P9nxg8Uc&ab_channel=Nohi
+    subheading: ELÉVAME
+    video: /img/nohi-elevame.mp4
+    image: /img/nohi-elevame.png
+  - title: BRIELLA
+    subheading: N.E.T.S.Y
+    youtube: https://www.youtube.com/watch?v=ix6z57qJRUs&ab_channel=Briella
+    video: /img/briella-netsy.mp4
+    image: /img/briella-netsy.png
+  - youtube: https://www.youtube.com/watch?v=3SXo0BLJOZY&ab_channel=RazzerBuccarelli
+    subheading: PANTALÓN
+    image: /img/razzer-x-mari-pantalón.png
+    video: /img/razzer-pantalon.mp4
+    title: RAZZER, MARI, JH BEATS
+  - title: MARIELL
+    subheading: CHICA FREE
+    image: /img/mariell-chica-free.png
+    video: /img/mariell-chica-free.mp4
+    youtube: https://www.youtube.com/watch?v=4Dti7V-yESY&ab_channel=Mariell
+heading: NUESTRO NORTE
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
 mainpitch:
@@ -70,5 +55,5 @@ main:
 image: /img/home-jumbotron.jpg
 description: Somos una productora audiovisual residenciada en Caracas,
   Venezuela. Nos especializamos en realizar videos musicales, comerciales y
-  contenido de redes sociales con altos estándares de calidad
+  contenido de redes sociales con altos estándares de calidad.
 ---
