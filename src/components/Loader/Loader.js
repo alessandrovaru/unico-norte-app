@@ -1,5 +1,7 @@
 import React from 'react'
 
+import loaderGif from '../../img/gif/logoLoader.gif'
+
 const Loader = () => {
   return (
     <div 
@@ -15,7 +17,7 @@ const Loader = () => {
         backgroundColor : "#000"
       }}
     >
-        <img src='https://i.postimg.cc/jdCd14p9/Logo-nico-norte-animado-2021-blanco-2.gif' border='0' alt='Logo-nico-norte-animado-2021-blanco-2'/>
+        <img src={loaderGif} border='0' alt='Logo único norte animado 2023'/>
     </div>
   )
 }
