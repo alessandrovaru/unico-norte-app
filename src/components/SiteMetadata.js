@@ -7,9 +7,13 @@ const useSiteMetadata = () => {
         site {
           siteMetadata {
             title
+            subtitle
             description
+            image
+            siteUrl
+            developerName
           }
-        }
+        } 
       }
     `
   )

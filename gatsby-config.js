@@ -5,6 +5,9 @@ module.exports = {
       "Bienvenido al Porfolio de ÚNICO NORTE. Productora Audiovisual establecida en Caracas, Venezuela. Productora audiovisual | Conceptualización | Postproducción",
     image: `src/img/logoBlack.png`,
     siteUrl: `https://www.uniconorte.com`,
+    subtitle: "Sigue tu norte, sé único.",
+    developerName: "Alessandro Varuzza | @alessandrovaru",
+    
   },
   plugins: [
     {
