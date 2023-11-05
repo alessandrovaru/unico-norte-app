@@ -26,8 +26,8 @@ export const BlogPostTemplate = ({
       {helmet || ""}
       <div className="content">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <section class="container is-fluid is-relative">
+          <div className="column is-12 ">
+            <section class="container is-fluid ">
               <div class="hero-body">
                 <div className="hero-body-text">
                   <p class="title">
@@ -49,7 +49,7 @@ export const BlogPostTemplate = ({
             </section>
             
             <h2>{description}</h2>
-            <PostContent content={content} />
+            <PostContent content={content} className={"post-content"} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
