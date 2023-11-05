@@ -2,7 +2,7 @@ import * as React from "react";
 import { Link } from "gatsby";
 
 import logo from "../../img/logoWhite.png";
-import { FaTwitter, FaFacebook, FaYoutube, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaTiktok } from 'react-icons/fa';
 import './styles.sass'
 
 const Footer = class extends React.Component {
@@ -66,18 +66,12 @@ const Footer = class extends React.Component {
               </div>            
             </div>
             <div style={{ maxWidth: "100vw" }} className="columns is-centered">
-                <div className="column is-4 social">
-                  <a title="instagram" href="https://instagram.com/uniconorte">
-                    <FaFacebook />
+                <div className="column is-2 social">
+                  <a aria-label='Instagram' title="instagram" href="https://instagram.com/uniconorte" target="_blank"  rel="noreferrer">
+                    <FaInstagram />
                   </a>
-                  <a title="instagram" href="https://instagram.com/uniconorte">
-                    <FaTwitter />
-                  </a>
-                  <a title="instagram" href="https://instagram.com/uniconorte">
-                    <FaYoutube />
-                  </a>
-                  <a title="instagram" href="https://instagram.com/uniconorte">
-                    <FaLinkedin />
+                  <a aria-label='Tik Tok' title="instagram" href="https://www.tiktok.com/@uniconorte" target="_blank"  rel="noreferrer">
+                    <FaTiktok />
                   </a>
                 </div>
               </div>

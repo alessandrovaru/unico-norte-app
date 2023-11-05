@@ -46,6 +46,7 @@ const Navbar = class extends React.Component {
             </Link>
             {/* Hamburger menu */}
             <div
+              aria-label='menu-button'
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               role="menuitem"
@@ -63,9 +64,6 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                ¿Quiénes somos?
-              </Link>
               <Link className="navbar-item" to="/portfolio">
                 Porfolio
               </Link>

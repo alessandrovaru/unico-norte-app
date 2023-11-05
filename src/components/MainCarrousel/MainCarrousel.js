@@ -8,8 +8,8 @@ import './styles.sass'
 import { FaYoutube } from 'react-icons/fa';
 
 const MainCarrousel = ({slider}) => {   
-  const [mobile, setMobile] = useState([])
   const [activeSlideKeyNumber, setActiveSlideKeyNumber] = useState('0')
+
   function Tilt(props) {
     const { options, ...rest } = props;
     const tilt = useRef(null);
@@ -21,13 +21,12 @@ const MainCarrousel = ({slider}) => {
   
     return <div ref={tilt} {...rest} />;
   }
+
   useEffect(() => {
     if (window.innerWidth < 960) {
-      setMobile(true)
       setActiveSlideKeyNumber('1')
-      console.log(mobile);
     }
-  }, [mobile])
+  }, [])
   
 
   const slideContent = slider.map((slider, index) => 
@@ -46,7 +45,7 @@ const MainCarrousel = ({slider}) => {
       <div className="slider-text">
         <h2 style={{color:"white"}}>{slider.title}</h2>
         <h3 style={{color:"white"}}>{slider.subheading}</h3>
-        <a href={slider.youtube} target='_blank' rel='noreferrer'>
+        <a aria-label='youtube-button' href={slider.youtube} target='_blank' rel='noreferrer'>
           <button><FaYoutube/><span>Ver en Youtube</span></button>
         </a>
       </div>
@@ -75,7 +74,7 @@ const MainCarrousel = ({slider}) => {
           clickable: true,
         }}
         initialSlide={activeSlideKeyNumber}
-        modules={[Pagination]}
+        modules={[Pagination, ]}
         className="mySwiper"
       >
         {slideContent}
