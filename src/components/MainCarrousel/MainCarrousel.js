@@ -56,7 +56,7 @@ const MainCarrousel = ({ slider }) => {
         // Check if we're on the last slide
         if (swiperInstance.activeIndex === swiperInstance.slides.length - 1) {
           // Perform the automatic page scroll here
-          smoothScrollTo(window.scrollY + 250, 2800);
+          smoothScrollTo(window.scrollY + 250, 3500);
         }
       };
 
