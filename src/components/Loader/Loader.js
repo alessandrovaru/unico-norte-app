@@ -17,7 +17,7 @@ const Loader = () => {
         backgroundColor : "#000"
       }}
     >
-        <img src={loaderGif} border='0' alt='Logo único norte animado 2023'/>
+        <img src={loaderGif} border='0' alt='Animación de carga...'/>
     </div>
   )
 }
