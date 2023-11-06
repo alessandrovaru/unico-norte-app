@@ -1,32 +1,79 @@
-import React, { useEffect, useRef, useState  } from 'react'
-import { Pagination } from 'swiper';
+import React, { useEffect, useRef, useState } from 'react';
+import { Pagination, Mousewheel } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 import 'swiper/css';
+import 'swiper/css/pagination';
 import VanillaTilt from 'vanilla-tilt';
-import './styles.sass'
+import './styles.sass';
 import { FaYoutube } from 'react-icons/fa';
 
-const MainCarrousel = ({slider}) => {   
-  const [activeSlideKeyNumber, setActiveSlideKeyNumber] = useState('0')
+const MainCarrousel = ({ slider }) => {
+  const [activeSlideKeyNumber, setActiveSlideKeyNumber] = useState('0');
+  const swiperRef = useRef(null);
 
   function Tilt(props) {
     const { options, ...rest } = props;
     const tilt = useRef(null);
+
     useEffect(() => {
       if (!navigator.userAgent.match(/iPhone/i)) {
         VanillaTilt.init(tilt.current, options);
       }
     }, [options]);
-  
+
     return <div ref={tilt} {...rest} />;
   }
 
+  const smoothScrollTo = (endY, duration) => {
+    const startY = window.scrollY;
+    const diffY = endY - startY;
+    let startTime;
+
+    const easeInOutQuad = (time, start, diff, duration) => {
+      time /= duration / 2;
+      if (time < 1) return (diff / 2) * time * time + start;
+      time--;
+      return (-diff / 2) * (time * (time - 2) - 1) + start;
+    };
+
+    const step = (timestamp) => {
+      if (!startTime) startTime = timestamp;
+      const time = timestamp - startTime;
+      const newY = easeInOutQuad(time, startY, diffY, duration);
+      window.scrollTo(0, newY);
+      if (time < duration) {
+        window.requestAnimationFrame(step);
+      }
+    };
+
+    window.requestAnimationFrame(step);
+  };
+
   useEffect(() => {
     if (window.innerWidth < 960) {
-      setActiveSlideKeyNumber('1')
+      setActiveSlideKeyNumber('1');
     }
-  }, [])
+  }, []);
+
+  useEffect(() => {
+    const swiperInstance = swiperRef.current.swiper;
+    if (swiperInstance) {
+      const onSlideChange = () => {
+        // Check if we're on the last slide
+        if (swiperInstance.activeIndex === swiperInstance.slides.length - 1) {
+          // Perform the automatic page scroll here
+          smoothScrollTo(window.scrollY + 250, 2800);
+        }
+      };
+
+      swiperInstance.on('slideChange', onSlideChange);
+
+      return () => {
+        swiperInstance.off('slideChange', onSlideChange);
+      };
+    }
+  }, []);
   
 
   const slideContent = slider.map((slider, index) => 
@@ -58,14 +105,16 @@ const MainCarrousel = ({slider}) => {
       }
     </SwiperSlide>
   )
+  
   const options = {
     speed: 1000,
     max: 30
   };
+
   return (
-    
     <Tilt className="box" options={options}>
       <Swiper
+        ref={swiperRef}
         direction='vertical'
         slidesPerView={"auto"}
         centeredSlides={true}
@@ -74,14 +123,14 @@ const MainCarrousel = ({slider}) => {
           clickable: true,
         }}
         initialSlide={activeSlideKeyNumber}
-        modules={[Pagination, ]}
+        modules={[ Mousewheel]} // Add Mousewheel to the modules array
+        mousewheel={true} // Enable mousewheel control
         className="mySwiper"
       >
         {slideContent}
       </Swiper>
     </Tilt>
-    
-  )
+  );
 }
 
-export default MainCarrousel
+export default MainCarrousel;
