@@ -7,6 +7,7 @@ const Loader = () => {
       style={{
         position : "fixed",
         display : "flex",
+        flexDirection : "column",
         width : "100vw",
         height : "100vh",
         justifyContent : "center",
@@ -16,6 +17,7 @@ const Loader = () => {
       }}
     >
         <img src='https://i.postimg.cc/zv34jFST/animacion-logo-full-glitch.gif' border='0' alt='Animación de carga...'/>
+        <p style={{color : "#fff", fontSize : "1.5rem"}}>Cargando...</p>
     </div>
   )
 }
