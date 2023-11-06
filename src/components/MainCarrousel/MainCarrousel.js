@@ -51,7 +51,7 @@ const MainCarrousel = ({slider}) => {
       </div>
       {slider.video && 
         <>
-            <video className='slider-video' controls autoPlay muted loop>
+          <video className='slider-video' controls autoPlay muted loop>
             <source src={slider.video.publicURL} type="video/mp4" />
           </video>
         </>
