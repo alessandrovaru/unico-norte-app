@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Mousewheel } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
@@ -9,10 +9,9 @@ import './styles.sass';
 import { FaYoutube } from 'react-icons/fa';
 
 const MainCarrousel = ({ slider }) => {
-  const [activeSlideKeyNumber, setActiveSlideKeyNumber] = useState('0');
   const swiperRef = useRef(null);
 
-  function Tilt(props) {
+  function Tilt(props) { 
     const { options, ...rest } = props;
     const tilt = useRef(null);
 
@@ -49,12 +48,6 @@ const MainCarrousel = ({ slider }) => {
 
     window.requestAnimationFrame(step);
   };
-
-  useEffect(() => {
-    if (window.innerWidth < 960) {
-      setActiveSlideKeyNumber('1');
-    }
-  }, []);
 
   useEffect(() => {
     const swiperInstance = swiperRef.current.swiper;
@@ -122,7 +115,6 @@ const MainCarrousel = ({ slider }) => {
         pagination={{
           clickable: true,
         }}
-        initialSlide={activeSlideKeyNumber}
         modules={[ Mousewheel]} // Add Mousewheel to the modules array
         mousewheel={true} // Enable mousewheel control
         className="mySwiper"

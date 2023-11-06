@@ -26,7 +26,7 @@ class BlogRollTemplate extends React.Component {
     const options = {
     
       speed: 1000,
-      max: 30
+      max: 5
     };
     return (
       <div className="columns is-multiline">
