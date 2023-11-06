@@ -1,7 +1,5 @@
 import React from 'react'
 
-import loaderGif from '../../img/gif/logoLoader.gif'
-
 const Loader = () => {
   return (
     <div 
@@ -17,7 +15,7 @@ const Loader = () => {
         backgroundColor : "#000"
       }}
     >
-        <img src={loaderGif} border='0' alt='Animación de carga...'/>
+        <img src='https://i.postimg.cc/zv34jFST/animacion-logo-full-glitch.gif' border='0' alt='Animación de carga...'/>
     </div>
   )
 }
