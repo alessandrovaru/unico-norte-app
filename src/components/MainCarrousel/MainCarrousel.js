@@ -108,7 +108,7 @@ const MainCarrousel = ({ slider }) => {
   
   const options = {
     speed: 1000,
-    max: 30
+    max: 5,
   };
 
   return (
