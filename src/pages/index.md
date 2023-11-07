@@ -24,8 +24,8 @@ heading: SOBRE NOSOTROS
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
 mainpitch:
-  title: Único Norte
-  description: VISUAL ARTS
+  title: SOBRE NOSOTROS
+  description: ÚNICO NORTE
 intro:
   blurbs: []
   heading: What we offer
