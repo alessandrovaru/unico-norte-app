@@ -20,7 +20,7 @@ slider:
     subheading: ELÉVAME
     video: /img/nohi-elevame.mp4
     image: /img/nohi-elevame.png
-heading: SOBRE NOSOTROS
+heading: NUESTRO TRABAJO
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
 mainpitch:
