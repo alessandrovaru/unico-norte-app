@@ -5,32 +5,27 @@ slider:
     youtube: https://youtu.be/nze-VVG-Yy0?si=E3Sf2Qxf46d2awWw
     video: /img/preview-reel.mp4
     image: /img/briella-netsy.png
+  - youtube: https://www.youtube.com/watch?v=c97fZAc281I&ab_channel=IsaSophia
+    subheading: "1712"
+    image: /img/isa-sophia-1712.png
+    video: /img/isa-sophia-1712.mp4
+    title: ISA SOPHIA
+  - title: BRIELLA
+    subheading: Mami Xula
+    image: /img/briella-mamixula.png
+    video: /img/briella-mamixula.mp4
+    youtube: https://www.youtube.com/watch?v=4kjptmOC8nQ&ab_channel=Briella
   - title: NOHI
     youtube: https://www.youtube.com/watch?v=Sg9P9nxg8Uc&ab_channel=Nohi
     subheading: ELÉVAME
     video: /img/nohi-elevame.mp4
     image: /img/nohi-elevame.png
-  - title: BRIELLA
-    subheading: N.E.T.S.Y
-    youtube: https://www.youtube.com/watch?v=ix6z57qJRUs&ab_channel=Briella
-    video: /img/briella-netsy.mp4
-    image: /img/briella-netsy.png
-  - youtube: https://www.youtube.com/watch?v=3SXo0BLJOZY&ab_channel=RazzerBuccarelli
-    subheading: PANTALÓN
-    image: /img/razzer-x-mari-pantalón.png
-    video: /img/razzer-pantalon.mp4
-    title: RAZZER, MARI, JH BEATS
-  - title: MARIELL
-    subheading: CHICA FREE
-    image: /img/mariell-chica-free.png
-    video: /img/mariell-chica-free.mp4
-    youtube: https://www.youtube.com/watch?v=4Dti7V-yESY&ab_channel=Mariell
-heading: NUESTRO NORTE
+heading: NUESTRO TRABAJO
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
 mainpitch:
-  title: Único Norte
-  description: VISUAL ARTS
+  title: SOBRE NOSOTROS
+  description: ÚNICO NORTE
 intro:
   blurbs: []
   heading: What we offer
