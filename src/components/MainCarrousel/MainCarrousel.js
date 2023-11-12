@@ -61,7 +61,14 @@ const MainCarrousel = ({ slider }) => {
     <SwiperSlide key={index} className="slide" >
       {slider.image && 
         <>
-          {(!slider.video || isIOS()) && 
+          {(!slider.video) && 
+            <>
+              <div className="slider-image">
+                <PreviewCompatibleImage imageInfo={slider} />
+              </div>
+            </>
+          }
+          {(isIOS()) && 
             <>
               <div className="slider-image">
                 <PreviewCompatibleImage imageInfo={slider} />
