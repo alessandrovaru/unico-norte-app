@@ -20,11 +20,11 @@ export const IndexPageTemplate = ({
 }) => {
 
   return (
-    <div  className="index">
+    <div className="index">
       <MainCarrousel slider={slider}/>
       <section className="mid-section section section--gradient">
         <div data-aos="fade-up" className="container is-widescreen">
-          <div className="section">
+          <div>
             <div className="columns">
               <div className="column is-12">
                 <div className="content">
