@@ -100,7 +100,7 @@ const MainCarrousel = ({ slider }) => {
   };
 
   return (
-    <Tilt className="box" options={options}>
+    <Tilt className="box main-carrousel-container" options={options}>
       <Swiper
         ref={swiperRef}
         direction='vertical'
