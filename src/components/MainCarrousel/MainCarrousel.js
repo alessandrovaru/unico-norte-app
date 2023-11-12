@@ -49,6 +49,11 @@ const MainCarrousel = ({ slider }) => {
     window.requestAnimationFrame(step);
   };
 
+  function isIOS() {
+    return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  }
+  
+
   useEffect(() => {
     const swiperInstance = swiperRef.current.swiper;
     if (swiperInstance) {
@@ -67,13 +72,15 @@ const MainCarrousel = ({ slider }) => {
       };
     }
   }, []);
+
+
   
 
   const slideContent = slider.map((slider, index) => 
     <SwiperSlide key={index} className="slide" >
       {slider.image && 
         <>
-          {!slider.video && 
+          {(!slider.video || isIOS()) && 
             <>
               <div className="slider-image">
                 <PreviewCompatibleImage imageInfo={slider} />
@@ -89,9 +96,9 @@ const MainCarrousel = ({ slider }) => {
           <button><FaYoutube/><span>Ver en Youtube</span></button>
         </a>
       </div>
-      {slider.video && 
+      {slider.video && !isIOS() && 
         <>
-          <video className='slider-video' controls autoPlay muted loop>
+          <video className='slider-video' autoPlay muted loop>
             <source src={slider.video.publicURL} type="video/mp4" />
           </video>
         </>
