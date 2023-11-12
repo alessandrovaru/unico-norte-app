@@ -24,31 +24,6 @@ const MainCarrousel = ({ slider }) => {
     return <div ref={tilt} {...rest} />;
   }
 
-  const smoothScrollTo = (endY, duration) => {
-    const startY = window.scrollY;
-    const diffY = endY - startY;
-    let startTime;
-
-    const easeInOutQuad = (time, start, diff, duration) => {
-      time /= duration / 2;
-      if (time < 1) return (diff / 2) * time * time + start;
-      time--;
-      return (-diff / 2) * (time * (time - 2) - 1) + start;
-    };
-
-    const step = (timestamp) => {
-      if (!startTime) startTime = timestamp;
-      const time = timestamp - startTime;
-      const newY = easeInOutQuad(time, startY, diffY, duration);
-      window.scrollTo(0, newY);
-      if (time < duration) {
-        window.requestAnimationFrame(step);
-      }
-    };
-
-    window.requestAnimationFrame(step);
-  };
-
   function isIOS() {
     return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   }
@@ -58,20 +33,23 @@ const MainCarrousel = ({ slider }) => {
     const swiperInstance = swiperRef.current.swiper;
     if (swiperInstance) {
       const onSlideChange = () => {
-        // Check if we're on the last slide
         if (swiperInstance.activeIndex === swiperInstance.slides.length - 1) {
-          // Perform the automatic page scroll here
-          smoothScrollTo(window.scrollY + 250, 3500);
+          // Desactiva el control del mousewheel en la última diapositiva
+          swiperInstance.mousewheel.disable();
+        } else {
+          // Asegúrate de que el control del mousewheel esté activado en otras diapositivas
+          swiperInstance.mousewheel.enable();
         }
       };
-
+  
       swiperInstance.on('slideChange', onSlideChange);
-
+  
       return () => {
         swiperInstance.off('slideChange', onSlideChange);
       };
     }
   }, []);
+  
 
 
   
