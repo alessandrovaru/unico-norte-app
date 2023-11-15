@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Mousewheel } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
-import { Mousewheel } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import VanillaTilt from 'vanilla-tilt';
@@ -13,20 +13,43 @@ const MainCarrousel = ({ slider }) => {
   const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
-    // Check if running in the browser
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= 1024);
+    };
+
     if (typeof window !== 'undefined') {
       setIsDesktop(window.innerWidth >= 1024);
-
-      const handleResize = () => {
-        setIsDesktop(window.innerWidth >= 1024);
-      };
-
       window.addEventListener('resize', handleResize);
-
-      // Clean up the event listener on unmount
-      return () => window.removeEventListener('resize', handleResize);
     }
-  }, []);
+
+    const setupSwiperEvents = () => {
+      const swiperInstance = swiperRef.current?.swiper;
+      if (swiperInstance) {
+        const onSlideChange = () => {
+          if (swiperInstance.activeIndex === swiperInstance.slides.length - 1) {
+            swiperInstance.mousewheel.disable();
+          } else {
+            swiperInstance.mousewheel.enable();
+          }
+        };
+
+        swiperInstance.on('slideChange', onSlideChange);
+
+        return () => {
+          swiperInstance.off('slideChange', onSlideChange);
+        };
+      }
+    };
+
+    const swiperCleanup = setupSwiperEvents();
+
+    return () => {
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('resize', handleResize);
+      }
+      swiperCleanup?.();
+    };
+  }, [swiperRef.current]);
 
   function Tilt(props) { 
     const { options, ...rest } = props;
@@ -49,26 +72,6 @@ const MainCarrousel = ({ slider }) => {
   }
   
 
-  useEffect(() => {
-    const swiperInstance = swiperRef.current.swiper;
-    if (swiperInstance) {
-      const onSlideChange = () => {
-        if (swiperInstance.activeIndex === swiperInstance.slides.length - 1) {
-          // Desactiva el control del mousewheel en la última diapositiva
-          swiperInstance.mousewheel.disable();
-        } else {
-          // Asegúrate de que el control del mousewheel esté activado en otras diapositivas
-          swiperInstance.mousewheel.enable();
-        }
-      };
-  
-      swiperInstance.on('slideChange', onSlideChange);
-  
-      return () => {
-        swiperInstance.off('slideChange', onSlideChange);
-      };
-    }
-  }, []);
   
 
 
