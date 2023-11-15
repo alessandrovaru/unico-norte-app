@@ -4,7 +4,7 @@ title: TEMPO
 subtitle: GRAN RADIO RIVIERA & DANI BARRANCO
 date: 2021-03-26T16:20:37.409Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/grr-tempo.png
 tags:
   - GRR
