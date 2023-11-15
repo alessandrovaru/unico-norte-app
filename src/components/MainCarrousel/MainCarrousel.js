@@ -10,17 +10,22 @@ import { FaYoutube } from 'react-icons/fa';
 
 const MainCarrousel = ({ slider }) => {
   const swiperRef = useRef(null);
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
+  const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => {
+    // Check if running in the browser
+    if (typeof window !== 'undefined') {
       setIsDesktop(window.innerWidth >= 1024);
-    };
 
-    window.addEventListener('resize', handleResize);
+      const handleResize = () => {
+        setIsDesktop(window.innerWidth >= 1024);
+      };
 
-    // Clean up the event listener on unmount
-    return () => window.removeEventListener('resize', handleResize);
+      window.addEventListener('resize', handleResize);
+
+      // Clean up the event listener on unmount
+      return () => window.removeEventListener('resize', handleResize);
+    }
   }, []);
 
   function Tilt(props) { 
