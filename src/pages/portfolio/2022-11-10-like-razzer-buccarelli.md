@@ -1,10 +1,10 @@
 ---
 templateKey: blog-post
-title: LIKE 
+title: LIKE
 subtitle: RAZZER BUCCARELLI
 date: 2020-12-11T16:00:29.720Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/razzer-like.png
 tags:
   - RAZZER
