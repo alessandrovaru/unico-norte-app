@@ -49,7 +49,7 @@ const MainCarrousel = ({ slider }) => {
       }
       swiperCleanup?.();
     };
-  }, []);
+  }, [swiperRef.current]);
 
   function Tilt(props) { 
     const { options, ...rest } = props;
