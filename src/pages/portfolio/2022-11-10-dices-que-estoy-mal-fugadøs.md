@@ -4,7 +4,7 @@ title: DICES QUE ESTOY MAL
 subtitle: FUGADØS
 date: 2021-01-21T16:00:57.261Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/fugados-dices-que-estoy-mal.png
 tags:
   - FUGADOS
