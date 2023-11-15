@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Mousewheel } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
 import 'swiper/css';
@@ -127,8 +126,6 @@ const MainCarrousel = ({ slider }) => {
         pagination={{
           clickable: true,
         }}
-        
-        mousewheel={true} // Enable mousewheel control
         className="mySwiper"
       >
         {slideContent}
