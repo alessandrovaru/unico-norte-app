@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Mousewheel } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import PreviewCompatibleImage from "../PreviewCompatibleImage";
@@ -10,6 +10,18 @@ import { FaYoutube } from 'react-icons/fa';
 
 const MainCarrousel = ({ slider }) => {
   const swiperRef = useRef(null);
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= 1024);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener on unmount
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   function Tilt(props) { 
     const { options, ...rest } = props;
@@ -103,14 +115,14 @@ const MainCarrousel = ({ slider }) => {
     <Tilt className="box main-carrousel-container" options={options}>
       <Swiper
         ref={swiperRef}
-        direction='vertical'
+        direction={isDesktop ? 'horizontal' : 'vertical'}
         slidesPerView={"auto"}
         centeredSlides={true}
         spaceBetween={30}
         pagination={{
           clickable: true,
         }}
-        modules={[ Mousewheel]} // Add Mousewheel to the modules array
+        
         mousewheel={true} // Enable mousewheel control
         className="mySwiper"
       >

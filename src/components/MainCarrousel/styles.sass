@@ -3,7 +3,8 @@
 // MainCarrousell
 
 .swiper 
-  height: 80vh !important
+  height: 100% !important
+  display: flex
   overflow: visible !important
 
 .slide
@@ -14,6 +15,7 @@
   overflow: hidden
   box-shadow: 1px 1px 14px #4e4e4e87
   cursor: grab
+  width: 75% !important
   .slider-text
     position: absolute
     z-index: 2
@@ -92,6 +94,8 @@ video::-webkit-media-controls
 
 
 +mobile
+  .slide
+    width: 100% !important
   .slider-image 
     height: 100%
   .slider-text h2
