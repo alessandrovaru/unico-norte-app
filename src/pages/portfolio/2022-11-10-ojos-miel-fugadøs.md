@@ -4,7 +4,7 @@ title: OJOS MIEL
 subtitle: FUGADØS
 date: 2021-03-25T15:02:00.688Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/fugados-ojos-miel.png
 tags:
   - FUGADOS
