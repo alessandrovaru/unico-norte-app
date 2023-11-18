@@ -5,15 +5,15 @@ slider:
     youtube: https://youtu.be/nze-VVG-Yy0?si=E3Sf2Qxf46d2awWw
     video: /img/preview-reel.mp4
     image: /img/briella-netsy.png
-  - youtube: https://www.youtube.com/watch?v=c97fZAc281I&ab_channel=IsaSophia
-    subheading: "1712"
-    image: /img/isa-sophia-1712.png
-    video: /img/isa-sophia-1712.mp4
-    title: ISA SOPHIA
-  - title: BRIELLA
-    subheading: Mami Xula
-    image: /img/briella-mamixula.png
-    video: /img/briella-mamixula.mp4
+  - youtube: https://www.youtube.com/watch?v=RPCX4Mwh8sw&list=RDRPCX4Mwh8sw&start_radio=1&ab_channel=Briella
+    subheading: UN BETA
+    image: /img/briella-un-beta.png
+    video: /img/briella-un-beta-3.mp4
+    title: BRIELLA
+  - title: NINA FRESH
+    subheading: Mike Wazowski
+    image: /img/nina-fresh-mike-wazuski.png
+    video: /img/nina-fresh-mike-wazowski-2.mp4
     youtube: https://www.youtube.com/watch?v=4kjptmOC8nQ&ab_channel=Briella
   - title: NOHI
     youtube: https://www.youtube.com/watch?v=Sg9P9nxg8Uc&ab_channel=Nohi
