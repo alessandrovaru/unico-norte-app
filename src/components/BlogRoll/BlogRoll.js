@@ -18,62 +18,47 @@ function Tilt(props) {
   return <div ref={tilt} {...rest} />;
 }
 
-
 class BlogRollTemplate extends React.Component {
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    // Filtrar los posts para incluir solo los que tienen featuredpost como true
+    const featuredPosts = data.allMarkdownRemark.edges.filter(({ node: post }) => post.frontmatter.featuredpost === true);
     const options = {
-    
       speed: 1000,
       max: 5
     };
     return (
       <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <Tilt options={options} className="blog-post is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                          
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <br />
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.subtitle}
-                    </span>
-                  </p>
-                </header>
-                {/* <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+        {featuredPosts.map(({ node: post }) => (
+          <Tilt options={options} className="blog-post is-parent column is-6" key={post.id}>
+            <article className={`blog-list-item tile is-child box notification is-featured`}>
+              <header>
+                {post.frontmatter.featuredimage ? (
+                  <div className="featured-thumbnail">
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: post.frontmatter.featuredimage,
+                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                      }}
+                    />
+                  </div>
+                ) : null}
+                <p className="post-meta">
+                  <Link
+                    className="title has-text-primary is-size-4"
+                    to={post.fields.slug}
+                  >
+                    {post.frontmatter.title}
                   </Link>
-                </p> */}
-              </article>
-            </Tilt>
-          ))}
+                  <br />
+                  <span className="subtitle is-size-5 is-block">
+                    {post.frontmatter.subtitle}
+                  </span>
+                </p>
+              </header>
+            </article>
+          </Tilt>
+        ))}
       </div>
     )
   }
@@ -87,7 +72,6 @@ BlogRoll.propTypes = {
   }),
 }
 
-
 export default function BlogRoll() {
   return (
     <StaticQuery
@@ -95,7 +79,7 @@ export default function BlogRoll() {
         query BlogRollQuery {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
-            filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+            filter: { frontmatter: { templateKey: { eq: "blog-post" }, featuredpost: { eq: true } } }
           ) {
             edges {
               node {
@@ -116,7 +100,6 @@ export default function BlogRoll() {
                         quality: 100
                         layout: CONSTRAINED
                       )
-
                     }
                   }
                 }
