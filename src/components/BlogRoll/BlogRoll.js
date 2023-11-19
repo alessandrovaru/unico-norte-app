@@ -22,20 +22,22 @@ function Tilt(props) {
 class BlogRollTemplate extends React.Component {
   render() {
     const { data } = this.props
+    const allPosts = data.allMarkdownRemark.edges;
     // Filtrar solo los posts con featuredpost igual a true
     const featuredPosts = data.allMarkdownRemark.edges.filter(
       ({ node: post }) => post.frontmatter.featuredpost === true
     );
-    const allPosts = data.allMarkdownRemark.edges;
 
     const options = {
       speed: 1000,
       max: 5
     };
 
+    const isPortfolio = typeof window !== 'undefined' && window.location.pathname === '/portfolio';
+
     return (
       <div className="columns is-multiline">
-        {window.location.pathname === '/portfolio' ? (
+        {isPortfolio ? (
           <Posts 
             posts={allPosts} 
             Tilt={Tilt} 
