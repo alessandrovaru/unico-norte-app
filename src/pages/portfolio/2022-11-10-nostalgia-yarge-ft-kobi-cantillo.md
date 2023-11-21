@@ -4,7 +4,7 @@ title: NOSTALGIA
 subtitle: YARGE FT. KOBI CANTILLO
 date: 2022-08-24T23:00:00.086Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/yarge-kobi-nostalgia.png
 tags:
   - YARGE
