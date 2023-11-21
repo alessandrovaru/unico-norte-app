@@ -4,7 +4,7 @@ title: SUERTE
 subtitle: BELLA FERRO
 date: 2022-04-01T22:00:03.906Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/280728626_422934259674207_3987488852588799478_n.jpg
 tags:
   - BELLAFERRO
