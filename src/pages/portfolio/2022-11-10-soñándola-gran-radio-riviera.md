@@ -4,7 +4,7 @@ title: Soñándola
 subtitle: Gran Radio Riviera
 date: 2021-08-27T22:00:13.887Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/grr-soñandola.png
 tags:
   - GRR
