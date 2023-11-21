@@ -4,7 +4,7 @@ title: INVISIBLE
 subtitle: ANNYBELL FT. GONA x OKAA
 date: 2022-06-04T00:00:54.348Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/annybell-invisible.png
 tags:
   - ANNYBELL
