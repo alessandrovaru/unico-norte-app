@@ -4,7 +4,7 @@ title: REKEMAO
 subtitle: YUNG IVERSON, JUNIOR CALDERA RK WAVY
 date: 2021-11-08T01:00:59.599Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/yung-iverson-rekemao.png
 tags:
   - YUNGIVERSON
