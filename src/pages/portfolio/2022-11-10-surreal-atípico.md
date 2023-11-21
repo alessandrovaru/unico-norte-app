@@ -4,7 +4,7 @@ title: SURREAL
 subtitle: ATÍPICO
 date: 2021-06-18T20:10:33.732Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/atipico-surreal.png
 tags:
   - ATIPICO
