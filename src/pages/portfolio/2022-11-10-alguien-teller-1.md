@@ -4,7 +4,7 @@ title: ALGUIEN (LIVE)
 subtitle: TELLER
 date: 2021-08-22T04:00:42.197Z
 description: LIVE
-featuredpost: true
+featuredpost: false
 featuredimage: /img/teller-live.png
 tags:
   - TELLER
