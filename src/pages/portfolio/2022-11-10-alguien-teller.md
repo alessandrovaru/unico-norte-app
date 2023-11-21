@@ -4,7 +4,7 @@ title: ALGUIEN
 subtitle: TELLER
 date: 2021-07-25T20:16:13.031Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/teller-alguien.png
 tags:
   - TELLER
