@@ -4,7 +4,7 @@ title: MAS DE TI
 subtitle: YARGE
 date: 2022-02-26T02:00:32.090Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/yarge-mas-de-ti.png
 tags:
   - MUSICVIDEO
