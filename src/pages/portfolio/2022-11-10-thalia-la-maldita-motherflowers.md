@@ -4,7 +4,7 @@ title: THALIA, LA MALDITA
 subtitle: MOTHERFLOWERS
 date: 2021-06-19T04:30:30.093Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/motherflowers-thalia-la-maldita.png
 tags:
   - MOTHERFLOWERS
