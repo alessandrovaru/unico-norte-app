@@ -4,7 +4,7 @@ title: DAME UN CHANCE
 subtitle: MARCOS MS
 date: 2022-05-13T22:00:22.521Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/dame-un-chance-marcos.png
 tags:
   - MARCOSMS
