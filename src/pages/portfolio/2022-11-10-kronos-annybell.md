@@ -4,7 +4,7 @@ title: KRONOS
 subtitle: ANNYBELL
 date: 2022-03-03T21:34:43.869Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/annybell-kronos.png
 tags:
   - ANNYBELL
