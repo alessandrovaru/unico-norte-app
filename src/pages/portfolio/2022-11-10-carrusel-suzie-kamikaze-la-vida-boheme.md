@@ -4,7 +4,7 @@ title: CARRUSEL/SUZIE KAMIKAZE
 subtitle: LA VIDA BOHEME
 date: 2022-06-10T04:00:50.831Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/la-vida-boheme-carrusel.png
 tags:
   - LVB
