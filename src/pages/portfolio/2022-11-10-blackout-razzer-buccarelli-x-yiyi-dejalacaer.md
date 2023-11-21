@@ -4,7 +4,7 @@ title: BLACKOUT
 subtitle: RAZZER BUCCARELLI X YIYI DEJALACAER
 date: 2021-12-12T04:00:25.985Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/razzer-blackout.png
 tags:
   - RAZZER
