@@ -4,7 +4,7 @@ title: LET ME BE
 subtitle: VERA DELACRUZ
 date: 2021-08-16T00:40:35.627Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/vera-let-me-be.png
 tags:
   - VERADELACRUZ
