@@ -4,7 +4,7 @@ title: CHECKLIST
 subtitle: Dani Barranco
 date: 2023-10-31T18:33:48.459Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/dani-checklist.png
 tags:
   - DANIBARRANCO
