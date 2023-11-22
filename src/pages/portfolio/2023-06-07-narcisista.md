@@ -4,7 +4,7 @@ title: NARCISISTA
 subtitle: DANI BARRANCO
 date: 2023-06-07T14:09:33.360Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/dani-narcisista.png
 tags:
   - DANIBARRANCO
