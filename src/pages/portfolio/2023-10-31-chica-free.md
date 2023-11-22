@@ -4,7 +4,7 @@ title: CHICA FREE
 subtitle: MARIELL
 date: 2023-10-31T18:43:14.732Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/mariell-chica-free.png
 tags:
   - MARIELL
