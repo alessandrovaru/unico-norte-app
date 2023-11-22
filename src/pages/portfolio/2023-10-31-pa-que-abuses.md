@@ -4,7 +4,7 @@ title: PA' QUE ABUSES
 subtitle: ELIO LEIROS
 date: 2023-10-31T18:36:06.827Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/elio-pa-que-abuses.jpg
 tags:
   - ELIOLEIROS
