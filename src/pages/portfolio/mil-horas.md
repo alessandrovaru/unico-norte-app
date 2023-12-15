@@ -1,4 +1,5 @@
 ---
+templateKey: blog-post
 title: CICATRICES
 subtitle: ELIO KOBI
 date: 2023-12-12T17:20:58.397Z
