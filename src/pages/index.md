@@ -2,7 +2,7 @@
 slider:
   - title: "2023"
     subheading: REEL
-    youtube: https://youtu.be/nze-VVG-Yy0?si=E3Sf2Qxf46d2awWw
+    youtube: https://www.youtube.com/watch?v=ZOPBgUzXh0M&ab_channel=%C3%9ANICONORTE
     video: /img/preview-reel.mp4
     image: /img/briella-netsy.png
   - youtube: https://www.youtube.com/watch?v=RPCX4Mwh8sw&list=RDRPCX4Mwh8sw&start_radio=1&ab_channel=Briella
