@@ -4,7 +4,7 @@ title: USO PERSO
 subtitle: ALBINO
 date: 2023-12-15T23:05:40.712Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/albino-uso-perso.jpg
 tags:
   - ALBINO
