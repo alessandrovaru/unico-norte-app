@@ -1,25 +1,25 @@
 ---
 slider:
-  - title: "2023"
+  - title: "2024"
     subheading: REEL
     youtube: https://www.youtube.com/watch?v=ZOPBgUzXh0M&ab_channel=%C3%9ANICONORTE
     video: /img/preview-reel.mp4
     image: /img/briella-netsy.png
-  - youtube: https://www.youtube.com/watch?v=RPCX4Mwh8sw&list=RDRPCX4Mwh8sw&start_radio=1&ab_channel=Briella
-    subheading: UN BETA
-    image: /img/briella-un-beta.png
-    video: /img/briella-un-beta-3.mp4
-    title: BRIELLA
-  - title: NINA FRESH
-    subheading: Mike Wazowski
-    image: /img/nina-fresh-mike-wazuski.png
-    video: /img/nina-fresh-mike-wazowski-2.mp4
-    youtube: https://www.youtube.com/watch?v=4kjptmOC8nQ&ab_channel=Briella
-  - title: NOHI
-    youtube: https://www.youtube.com/watch?v=Sg9P9nxg8Uc&ab_channel=Nohi
-    subheading: ELÉVAME
-    video: /img/nohi-elevame.mp4
-    image: /img/nohi-elevame.png
+  - youtube: https://www.youtube.com/watch?v=7VCnLAK-H-w&ab_channel=ElioLeiros
+    subheading: Mi Otra Mitad (REMIX)
+    image: /img/elio-jay-mi-otra-mitad.png
+    video: /img/elio-jay-wheeler.mp4
+    title: Elio Leiros & JayWheeler
+  - title: Briella
+    subheading: Coquette
+    image: /img/briella-coquette.png
+    video: /img/briella-coquette.mp4
+    youtube: https://www.youtube.com/watch?v=BpL_Xf7Q5Ug&ab_channel=Briella
+  - title: ELIO LEIROS
+    youtube: https://www.youtube.com/watch?v=B-Lepq73fM0&ab_channel=ElioLeiros
+    subheading: DIABLO
+    video: /img/elio-diablo.mp4
+    image: /img/elio-diablo.png
 heading: NUESTRO TRABAJO
 subheading: Support sustainable farming while enjoying a cup
 templateKey: index-page
