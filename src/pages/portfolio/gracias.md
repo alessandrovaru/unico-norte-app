@@ -4,7 +4,7 @@ title: GRACIAS
 subtitle: ISA SOPHIA
 date: 2023-12-12T17:15:35.690Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/isa-sophia-gracias.jpg
 tags:
   - ISASOPHIA
