@@ -4,7 +4,7 @@ title: CICATRICES
 subtitle: ELIO KOBI
 date: 2023-12-12T17:20:58.397Z
 description: MUSIC VIDEO
-featuredpost: true
+featuredpost: false
 featuredimage: /img/elio-kobi-cicatrices.jpg
 tags:
   - ELIOLEIROS
