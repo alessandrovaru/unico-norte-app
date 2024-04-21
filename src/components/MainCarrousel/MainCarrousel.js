@@ -11,6 +11,7 @@ import { FaYoutube } from 'react-icons/fa';
 const MainCarrousel = ({ slider }) => {
   const swiperRef = useRef(null);
   const [isDesktop, setIsDesktop] = useState(false);
+  const [isIOS, setIsIOS] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -43,6 +44,10 @@ const MainCarrousel = ({ slider }) => {
 
     const swiperCleanup = setupSwiperEvents();
 
+    if (typeof window !== 'undefined') {
+      setIsIOS(/iPad|iPhone|iPod/i.test(navigator.userAgent) && !window.MSStream);
+    }
+
     return () => {
       if (typeof window !== 'undefined') {
         window.removeEventListener('resize', handleResize);
@@ -65,13 +70,6 @@ const MainCarrousel = ({ slider }) => {
     return <div ref={tilt} {...rest} />;
   }
 
-  function isIOS() {
-    if (typeof window !== 'undefined') {
-      console.log(navigator.userAgent); // Log the user agent
-      return /iPad|iPhone|iPod/i.test(navigator.userAgent) && !window.MSStream;
-    }
-    return false;
-  }
 
   
 
@@ -89,7 +87,7 @@ const MainCarrousel = ({ slider }) => {
               </div>
             </>
           }
-          {(isIOS()) && 
+          {isIOS && 
             <>
               <div className="slider-image">
                 <PreviewCompatibleImage imageInfo={slider} />
@@ -105,7 +103,7 @@ const MainCarrousel = ({ slider }) => {
           <button><FaYoutube/><span>Ver en Youtube</span></button>
         </a>
       </div>
-      {slider.video && !isIOS() && 
+      {slider.video && !isIOS && 
         <>
           <video className='slider-video' autoPlay muted loop>
             <source src={slider.video.publicURL} type="video/mp4" />
