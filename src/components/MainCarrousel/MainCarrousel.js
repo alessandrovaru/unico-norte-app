@@ -49,6 +49,7 @@ const MainCarrousel = ({ slider }) => {
       }
       swiperCleanup?.();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [swiperRef.current]);
 
   function Tilt(props) { 
@@ -66,11 +67,11 @@ const MainCarrousel = ({ slider }) => {
 
   function isIOS() {
     if (typeof window !== 'undefined') {
+      console.log(navigator.userAgent); // Log the user agent
       return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     }
     return false;
-  }
-  
+}
 
   
 
