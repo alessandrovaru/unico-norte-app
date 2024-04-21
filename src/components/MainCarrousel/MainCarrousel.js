@@ -92,7 +92,6 @@ const MainCarrousel = ({ slider }) => {
           {(isIOS()) && 
             <>
               <div className="slider-image">
-                <p style={{color:"white"}}>No se puede reproducir el video en iOS</p>
                 <PreviewCompatibleImage imageInfo={slider} />
               </div>
             </>
