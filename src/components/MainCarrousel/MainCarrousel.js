@@ -68,10 +68,10 @@ const MainCarrousel = ({ slider }) => {
   function isIOS() {
     if (typeof window !== 'undefined') {
       console.log(navigator.userAgent); // Log the user agent
-      return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      return /iPad|iPhone|iPod/i.test(navigator.userAgent) && !window.MSStream;
     }
     return false;
-}
+  }
 
   
 
@@ -92,6 +92,7 @@ const MainCarrousel = ({ slider }) => {
           {(isIOS()) && 
             <>
               <div className="slider-image">
+                <p style={{color:"white"}}>No se puede reproducir el video en iOS</p>
                 <PreviewCompatibleImage imageInfo={slider} />
               </div>
             </>
