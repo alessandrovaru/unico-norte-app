@@ -2,7 +2,7 @@
 slider:
   - title: "2024"
     subheading: REEL
-    youtube: https://www.youtube.com/watch?v=ZOPBgUzXh0M&ab_channel=%C3%9ANICONORTE
+    youtube: https://www.youtube.com/watch?v=yN0bngnKBfw&ab_channel=%C3%9ANICONORTE
     video: /img/preview-reel.mp4
     image: /img/briella-netsy.png
   - youtube: https://www.youtube.com/watch?v=7VCnLAK-H-w&ab_channel=ElioLeiros
